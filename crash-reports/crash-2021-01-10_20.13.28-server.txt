@@ -1,0 +1,73 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 21. 1. 10 ¿ÀÈÄ 8:13
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: The following block entry in TFCOre.cfg is invalid: terrafirmacraftplus:Ore1
+	at com.bioxx.tfc.WorldGen.Generators.OreSpawnData.<init>(OreSpawnData.java:28)
+	at com.bioxx.tfc.WorldGen.Generators.OreSpawnData.<init>(OreSpawnData.java:54)
+	at com.bioxx.tfc.Core.Config.TFC_ConfigFiles.getOreData(TFC_ConfigFiles.java:557)
+	at com.bioxx.tfc.Core.Config.TFC_ConfigFiles.reloadOres(TFC_ConfigFiles.java:490)
+	at com.bioxx.tfc.TerraFirmaCraft.postInit(TerraFirmaCraft.java:224)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:742)
+	at cpw.mods.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:97)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:319)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 456580760 bytes (435 MB) / 628097024 bytes (599 MB) up to 3804758016 bytes (3628 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 10 mods loaded, 10 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJ	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJ	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1558-1.7.10-universal.jar) 
+	UCHIJ	Forge{10.13.4.1558} [Minecraft Forge] (forge-1.7.10-10.13.4.1558-1.7.10-universal.jar) 
+	UCHIJ	tfc_coremod{0.79.29} [TFC[coremod]] (minecraft.jar) 
+	UCHIJ	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UCHIJ	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal.jar) 
+	UCHIE	terrafirmacraft{0.79.29} [TerraFirmaCraft] (1.7.10-TerraFirmaCraft-0.79.30.925.jar) 
+	UCHIJ	journeymap{5.1.4p1} [JourneyMap] (journeymap-1.7.10-5.1.4p1-unlimited.jar) 
+	UCHIE	TerraFirmaCraftNEIplugin{1.5.3.25} [TerraFirmaCraftNEIplugin] (TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar) 
+	UCHIJ	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

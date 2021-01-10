@@ -1,0 +1,17 @@
+[00:10:24] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[00:10:27] [Server thread/INFO]: Loading properties
+[00:10:28] [Server thread/INFO]: Default game type: SURVIVAL
+[00:10:28] [Server thread/INFO]: Generating keypair
+[00:10:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:10:28] [Server thread/INFO]: Preparing level "world"
+[00:10:29] [Server thread/INFO]: Preparing start region for level 0
+[00:10:30] [Server thread/INFO]: Preparing spawn area: 83%
+[00:10:30] [Server thread/INFO]: Done (1.423s)! For help, type "help" or "?"
+[00:10:37] [User Authenticator #1/INFO]: UUID of player WOOG1E_ is b190ddc5-c6fb-4219-9b99-03260299d72a
+[00:10:39] [Server thread/INFO]: Stopping the server
+[00:10:39] [Server thread/INFO]: Stopping server
+[00:10:39] [Server thread/INFO]: Saving players
+[00:10:39] [Server thread/INFO]: Saving worlds
+[00:10:39] [Server thread/INFO]: Saving chunks for level 'world'/DEFAULT
+[00:10:40] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[00:10:40] [Server thread/INFO]: Saving chunks for level 'world'/DEFAULT

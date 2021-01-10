@@ -1,0 +1,880 @@
+[20:59:50] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[20:59:50] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[20:59:50] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_241
+[20:59:50] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[20:59:50] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\Python 3.8.3\Scripts\;D:\Program Files\Python 3.8.3\;C:\Users\wani3\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Bandizip\;C:\Program Files (x86)\Java\jre1.8.0_241\bin;D:\Program Files\Microsoft VS Code\bin;D:\Program Files\Git\cmd;;.
+[20:59:51] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[20:59:51] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[20:59:51] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[20:59:51] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[20:59:51] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[20:59:51] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[20:59:51] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[20:59:51] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[20:59:51] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to E:\Games\Minecraft\TFCserver\.
+[20:59:51] [main/DEBUG] [FML/]: Discovering coremods
+[20:59:51] [main/DEBUG] [FML/]: Examining for coremod candidacy 1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[20:59:51] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in 1.7.10-TerraFirmaCraft-0.79.30.925.jar, it will be examined later for regular @Mod instances
+[20:59:51] [main/DEBUG] [FML/]: Instantiating coremod class TFCASMLoadingPlugin
+[20:59:51] [main/WARN] [FML/]: The coremod com.bioxx.tfc.TFCASMLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:59:51] [main/DEBUG] [FML/]: Enqueued coremod TFCASMLoadingPlugin
+[20:59:51] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[20:59:51] [main/TRACE] [FML/]: Adding CodeChickenCore-1.7.10-1.0.7.47-universal.jar to the list of known coremods, it will not be examined again
+[20:59:51] [main/DEBUG] [FML/]: Instantiating coremod class CodeChickenCorePlugin
+[20:59:52] [main/WARN] [FML/]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:59:52] [main/DEBUG] [FML/]: Added access transformer class codechicken.core.asm.CodeChickenAccessTransformer to enqueued access transformers
+[20:59:52] [main/DEBUG] [FML/]: Enqueued coremod CodeChickenCorePlugin
+[20:59:52] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[20:59:52] [main/DEBUG] [FML/]: Not found coremod data in CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[20:59:52] [main/DEBUG] [FML/]: Examining for coremod candidacy journeymap-1.7.10-5.1.4p1-unlimited.jar
+[20:59:52] [main/DEBUG] [FML/]: Not found coremod data in journeymap-1.7.10-5.1.4p1-unlimited.jar
+[20:59:52] [main/DEBUG] [FML/]: Examining for coremod candidacy NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[20:59:52] [main/TRACE] [FML/]: Adding NotEnoughItems-1.7.10-1.0.5.120-universal.jar to the list of known coremods, it will not be examined again
+[20:59:52] [main/DEBUG] [FML/]: Instantiating coremod class NEICorePlugin
+[20:59:52] [main/WARN] [FML/]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:59:52] [main/DEBUG] [FML/]: Enqueued coremod NEICorePlugin
+[20:59:52] [main/DEBUG] [FML/]: Examining for coremod candidacy TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar
+[20:59:52] [main/DEBUG] [FML/]: Not found coremod data in TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar
+[20:59:52] [main/DEBUG] [FML/]: Examining for coremod candidacy Waila-1.5.10_1.7.10.jar
+[20:59:52] [main/DEBUG] [FML/]: Not found coremod data in Waila-1.5.10_1.7.10.jar
+[20:59:52] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:59:52] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[20:59:52] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:59:52] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:59:52] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:59:52] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[20:59:52] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[20:59:52] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[20:59:52] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[20:59:52] [main/DEBUG] [FML/]: Injection complete
+[20:59:52] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[20:59:52] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[20:59:52] [main/DEBUG] [FML/]: Read 527 binary patches
+[20:59:53] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:59:53] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[20:59:53] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:59:53] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[20:59:53] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[20:59:53] [main/DEBUG] [FML/]: Injection complete
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[20:59:53] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[20:59:53] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:59:53] [main/DEBUG] [FML/]: Injecting coremod CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin} class transformers
+[20:59:53] [main/DEBUG] [FML/]: Injection complete
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin for CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin}
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin CCCDeobfPlugin
+[20:59:53] [main/DEBUG] [FML/]: Coremod plugin class LoadPlugin run successfully
+[20:59:53] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:59:53] [main/DEBUG] [FML/]: Injecting coremod TFCASMLoadingPlugin {com.bioxx.tfc.TFCASMLoadingPlugin} class transformers
+[20:59:53] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityRenderer
+[20:59:53] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_RenderGlobal
+[20:59:53] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityLeashKnot
+[20:59:53] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityPlayerMP
+[20:59:53] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityPlayer
+[20:59:53] [main/DEBUG] [FML/]: Injection complete
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin for TFCASMLoadingPlugin {com.bioxx.tfc.TFCASMLoadingPlugin}
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin TFCASMLoadingPlugin
+[20:59:53] [main/DEBUG] [FML/]: Coremod plugin class TFCASMLoadingPlugin run successfully
+[20:59:53] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:59:53] [main/DEBUG] [FML/]: Injecting coremod CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin} class transformers
+[20:59:53] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.ClassHeirachyManager
+[20:59:53] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.InterfaceDependancyTransformer
+[20:59:53] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.TweakTransformer
+[20:59:53] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DelegatedTransformer
+[20:59:53] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DefaultImplementationTransformer
+[20:59:53] [main/DEBUG] [FML/]: Injection complete
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin for CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin}
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin CodeChickenCorePlugin
+[20:59:53] [main/DEBUG] [FML/]: Coremod plugin class CodeChickenCorePlugin run successfully
+[20:59:53] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:59:53] [main/DEBUG] [FML/]: Injecting coremod NEICorePlugin {codechicken.nei.asm.NEICorePlugin} class transformers
+[20:59:53] [main/TRACE] [FML/]: Registering transformer codechicken.nei.asm.NEITransformer
+[20:59:53] [main/DEBUG] [FML/]: Injection complete
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin for NEICorePlugin {codechicken.nei.asm.NEICorePlugin}
+[20:59:53] [main/DEBUG] [FML/]: Running coremod plugin NEICorePlugin
+[20:59:53] [main/DEBUG] [FML/]: Coremod plugin class NEICorePlugin run successfully
+[20:59:53] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[20:59:53] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[20:59:53] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[20:59:53] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[20:59:53] [main/DEBUG] [FML/]: Loaded 11 rules from AccessTransformer mod jar file E:\Games\Minecraft\TFCserver\mods\NotEnoughItems-1.7.10-1.0.5.120-universal.jar!META-INF/nei_at.cfg
+
+[20:59:53] [main/DEBUG] [FML/]: Loaded 20 rules from AccessTransformer mod jar file E:\Games\Minecraft\TFCserver\mods\1.7.10-TerraFirmaCraft-0.79.30.925.jar!META-INF/tfc_at.cfg
+
+[20:59:53] [main/DEBUG] [FML/]: Validating minecraft
+[20:59:53] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[20:59:53] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[20:59:53] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[20:59:53] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: yz | Found 2 injections
+[20:59:53] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: yz : {e | (FF)V}
+[20:59:53] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: yz Complete
+[20:59:53] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[20:59:53] [main/DEBUG] [CCL ASM/]: Writing method [aji.canBeReplacedByLeaves(Lahl;III)Z]
+[20:59:54] [main/DEBUG] [CCL ASM/]: Injecting before method [dh.toString()Ljava/lang/String;] @ 51 - 55
+[20:59:54] [main/DEBUG] [CCL ASM/]: Injecting before method [dq.toString()Ljava/lang/String;] @ 56 - 60
+[20:59:54] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: mw | Found 1 injections
+[20:59:54] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: mw : {i | ()V}
+[20:59:54] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: mw Complete
+[20:59:54] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: su | Found 1 injections
+[20:59:54] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: su : {e | ()Z}
+[20:59:54] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: su Complete
+[20:59:56] [main/WARN] [FML/]: =============================================================
+[20:59:56] [main/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[20:59:56] [main/WARN] [FML/]: Offendor: net/minecraft/server/gui/MinecraftServerGui$1.windowClosing(Ljava/awt/event/WindowEvent;)V
+[20:59:56] [main/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[20:59:56] [main/WARN] [FML/]: =============================================================
+[20:59:56] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[20:59:56] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[20:59:56] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[20:59:57] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[20:59:57] [Server thread/DEBUG] [FML/]: File E:\Games\Minecraft\TFCserver\config\injectedDependencies.json not found. No dependencies injected
+[20:59:57] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, com.bioxx.tfc.TerraFirmaCraftCore, codechicken.core.asm.CodeChickenCoreModContainer, codechicken.nei.NEIModContainer]
+[20:59:57] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[20:59:57] [Server thread/DEBUG] [FML/]: Found a minecraft related file at E:\Games\Minecraft\TFCserver\forge-1.7.10-10.13.4.1558-1.7.10-universal.jar, examining for mod candidates
+[20:59:57] [Server thread/TRACE] [FML/]: Skipping known library file E:\Games\Minecraft\TFCserver\mods\1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[20:59:57] [Server thread/TRACE] [FML/]: Skipping known library file E:\Games\Minecraft\TFCserver\mods\CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[20:59:57] [Server thread/DEBUG] [FML/]: Found a minecraft related file at E:\Games\Minecraft\TFCserver\.\mods\1.7.10\CodeChickenLib-1.7.10-1.1.3.138-universal.jar, examining for mod candidates
+[20:59:57] [Server thread/TRACE] [FML/]: Skipping known library file E:\Games\Minecraft\TFCserver\mods\NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[20:59:57] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[20:59:57] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[20:59:57] [Server thread/INFO] [FML/]: Searching E:\Games\Minecraft\TFCserver\mods for mods
+[20:59:57] [Server thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[20:59:57] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file 1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[20:59:57] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[20:59:57] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file journeymap-1.7.10-5.1.4p1-unlimited.jar
+[20:59:57] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[20:59:57] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar
+[20:59:57] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Waila-1.5.10_1.7.10.jar
+[20:59:57] [Server thread/INFO] [FML/]: Also searching E:\Games\Minecraft\TFCserver\mods\1.7.10 for mods
+[20:59:57] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[20:59:57] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1558-1.7.10-universal.jar for potential mods
+[20:59:57] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1558-1.7.10-universal.jar appears to be missing an mcmod.info file
+[20:59:57] [Server thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods
+[20:59:57] [Server thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file
+[20:59:57] [Server thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[20:59:57] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[20:59:57] [Server thread/DEBUG] [FML/]: Examining file 1.7.10-TerraFirmaCraft-0.79.30.925.jar for potential mods
+[20:59:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file 1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[20:59:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.bioxx.tfc.TerraFirmaCraft) - loading
+[20:59:57] [Server thread/TRACE] [terrafirmacraft/]: Using mcmod dependency info : [] [Forge@[10.13.4.1448,)] []
+[20:59:57] [Server thread/DEBUG] [FML/]: Examining file journeymap-1.7.10-5.1.4p1-unlimited.jar for potential mods
+[20:59:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file journeymap-1.7.10-5.1.4p1-unlimited.jar
+[20:59:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (journeymap.common.Journeymap) - loading
+[20:59:57] [Server thread/TRACE] [journeymap/]: Using mcmod dependency info : [Forge@[10.13.4.1558,)] [Forge@[10.13.4.1558,)] []
+[20:59:57] [Server thread/DEBUG] [FML/]: Examining file TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar for potential mods
+[20:59:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar
+[20:59:57] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.dries007.tfcnei.TerraFirmaCraftNEIplugin) - loading
+[20:59:57] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/]: Using mcmod dependency info : [Forge, terrafirmacraft, NotEnoughItems] [terrafirmacraft, NotEnoughItems] []
+[20:59:57] [Server thread/DEBUG] [TerraFirmaCraftNEIplugin/]: Attempting to load the file version.properties from TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar to locate a version number for TerraFirmaCraftNEIplugin
+[20:59:57] [Server thread/WARN] [TerraFirmaCraftNEIplugin/]: Mod TerraFirmaCraftNEIplugin is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.5.3.25
+[20:59:57] [Server thread/DEBUG] [FML/]: Examining file Waila-1.5.10_1.7.10.jar for potential mods
+[20:59:57] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Waila-1.5.10_1.7.10.jar
+[20:59:58] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (mcp.mobius.waila.Waila) - loading
+[20:59:58] [Server thread/TRACE] [Waila/]: Parsed dependency info : [] [NotEnoughItems@[1.0.4.0,)] []
+[20:59:58] [Server thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods
+[20:59:58] [Server thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file
+[20:59:58] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 10 mods to load
+[20:59:58] [Server thread/DEBUG] [FML/]: Found API mcp.mobius.waila.api (owned by Waila providing WailaAPI) embedded in Waila
+[20:59:58] [Server thread/DEBUG] [FML/]: Creating API container dummy for API WailaAPI: owner: Waila, dependents: []
+[20:59:58] [Server thread/TRACE] [FML/]: Received a system property request ''
+[20:59:58] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[20:59:58] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[20:59:58] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[20:59:58] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[20:59:58] [Server thread/DEBUG] [FML/]: Found translations in NotEnoughItems-1.7.10-1.0.5.120-universal.jar [cs_CZ, fr_FR, et_EE, zh_CN, it_IT, zh_TW, de_DE, tr_TR, ru_RU, pt_BR, sk_SK, ko_KR, pl_PL, en_US]
+[20:59:58] [Server thread/DEBUG] [terrafirmacraft/]: Enabling mod terrafirmacraft
+[20:59:58] [Server thread/DEBUG] [FML/]: Found translations in 1.7.10-TerraFirmaCraft-0.79.30.925.jar [es_UY, en_US, nl_NL, ro_RO, es_VE, fr_CA, da_DK, tr_TR, pt_PT, ja_JP, zh_CN, it_IT, en_CA, zh_TW, ko_KR, zh_HK, en_GB, hu_HU, es_AR, ru_RU, pt_BR, es_MX, fi_FI, fr_FR, de_DE, es_ES]
+[20:59:58] [Server thread/DEBUG] [journeymap/]: Enabling mod journeymap
+[20:59:58] [Server thread/DEBUG] [FML/]: Found translations in journeymap-1.7.10-5.1.4p1-unlimited.jar [ar_SA, ca_ES, de_DE, en_US, es_ES, fi_FI, fr_CA, fr_FR, hu_HU, ja_JP, ko_KR, nl_NL, no_NO, pt_BR, ru_RU, sv_SE, zh_CN]
+[20:59:58] [Server thread/DEBUG] [TerraFirmaCraftNEIplugin/]: Enabling mod TerraFirmaCraftNEIplugin
+[20:59:58] [Server thread/DEBUG] [Waila/]: Enabling mod Waila
+[20:59:58] [Server thread/DEBUG] [FML/]: Found translations in Waila-1.5.10_1.7.10.jar [de_DE, ru_RU, en_US, it_IT, zh_CN, fr_FR, et_EE, nl_NL]
+[20:59:58] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[20:59:58] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[20:59:58] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[20:59:58] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[20:59:58] [Server thread/DEBUG] [FML/]: Mod sorting data
+[20:59:58] [Server thread/DEBUG] [FML/]: 	terrafirmacraft(TerraFirmaCraft:0.79.29): 1.7.10-TerraFirmaCraft-0.79.30.925.jar ()
+[20:59:58] [Server thread/DEBUG] [FML/]: 	journeymap(JourneyMap:5.1.4p1): journeymap-1.7.10-5.1.4p1-unlimited.jar ()
+[20:59:58] [Server thread/DEBUG] [FML/]: 	TerraFirmaCraftNEIplugin(TerraFirmaCraftNEIplugin:1.5.3.25): TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar ()
+[20:59:58] [Server thread/DEBUG] [FML/]: 	Waila(Waila:1.5.10): Waila-1.5.10_1.7.10.jar (after:NotEnoughItems@[1.0.4.0,))
+[20:59:58] [Server thread/DEBUG] [FML/]: 	WailaAPI(API: WailaAPI:1.2): Waila-1.5.10_1.7.10.jar ()
+[20:59:58] [Server thread/INFO] [FML/]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.138-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[20:59:58] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[20:59:58] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.007s
+[20:59:58] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[20:59:58] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[20:59:58] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[20:59:58] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[20:59:58] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, tfc_coremod, CodeChickenCore, NotEnoughItems, terrafirmacraft, journeymap, TerraFirmaCraftNEIplugin, Waila] at CLIENT
+[20:59:58] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, tfc_coremod, CodeChickenCore, NotEnoughItems, terrafirmacraft, journeymap, TerraFirmaCraftNEIplugin, Waila] at SERVER
+[20:59:58] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.421s
+[20:59:58] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[20:59:58] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[20:59:58] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[20:59:58] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[20:59:58] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.008s
+[20:59:58] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLConstructionEvent to mod tfc_coremod
+[20:59:58] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLConstructionEvent to mod tfc_coremod
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - TFC[coremod] took 0.001s
+[20:59:58] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLConstructionEvent to mod CodeChickenCore
+[20:59:58] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLConstructionEvent to mod CodeChickenCore
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CodeChicken Core took 0.000s
+[20:59:58] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLConstructionEvent to mod NotEnoughItems
+[20:59:58] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLConstructionEvent to mod NotEnoughItems
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Not Enough Items took 0.001s
+[20:59:58] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLConstructionEvent to mod terrafirmacraft
+[20:59:58] [Server thread/TRACE] [FML/terrafirmacraft]: Mod terrafirmacraft is using network checker : Accepting version 0.79.29
+[20:59:58] [Server thread/TRACE] [FML/terrafirmacraft]: Testing mod terrafirmacraft to verify it accepts its own version in a remote connection
+[20:59:58] [Server thread/TRACE] [FML/terrafirmacraft]: The mod terrafirmacraft accepts its own version (0.79.29)
+[20:59:58] [Server thread/DEBUG] [FML/terrafirmacraft]: Attempting to inject @SidedProxy classes into terrafirmacraft
+[20:59:58] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLConstructionEvent to mod terrafirmacraft
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - TerraFirmaCraft took 0.052s
+[20:59:58] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLConstructionEvent to mod journeymap
+[20:59:58] [Server thread/TRACE] [FML/journeymap]: Mod journeymap is using network checker : Invoking method checkModLists
+[20:59:58] [Server thread/TRACE] [FML/journeymap]: Testing mod journeymap to verify it accepts its own version in a remote connection
+[20:59:58] [Server thread/TRACE] [FML/journeymap]: The mod journeymap accepts its own version (5.1.4p1)
+[20:59:58] [Server thread/DEBUG] [FML/journeymap]: Attempting to inject @SidedProxy classes into journeymap
+[20:59:58] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLConstructionEvent to mod journeymap
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JourneyMap took 0.011s
+[20:59:58] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLConstructionEvent to mod TerraFirmaCraftNEIplugin
+[20:59:58] [Server thread/TRACE] [FML/TerraFirmaCraftNEIplugin]: Mod TerraFirmaCraftNEIplugin is using network checker : Invoking method checkVersion
+[20:59:58] [Server thread/TRACE] [FML/TerraFirmaCraftNEIplugin]: Testing mod TerraFirmaCraftNEIplugin to verify it accepts its own version in a remote connection
+[20:59:58] [Server thread/TRACE] [FML/TerraFirmaCraftNEIplugin]: The mod TerraFirmaCraftNEIplugin accepts its own version (1.5.3.25)
+[20:59:58] [Server thread/DEBUG] [FML/TerraFirmaCraftNEIplugin]: Attempting to inject @SidedProxy classes into TerraFirmaCraftNEIplugin
+[20:59:58] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLConstructionEvent to mod TerraFirmaCraftNEIplugin
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - TerraFirmaCraftNEIplugin took 0.005s
+[20:59:58] [Server thread/TRACE] [Waila/Waila]: Sending event FMLConstructionEvent to mod Waila
+[20:59:58] [Server thread/TRACE] [FML/Waila]: Mod Waila is using network checker : No network checking performed
+[20:59:58] [Server thread/TRACE] [FML/Waila]: Testing mod Waila to verify it accepts its own version in a remote connection
+[20:59:58] [Server thread/TRACE] [FML/Waila]: The mod Waila accepts its own version (1.5.10)
+[20:59:58] [Server thread/DEBUG] [FML/Waila]: Attempting to inject @SidedProxy classes into Waila
+[20:59:58] [Server thread/TRACE] [Waila/Waila]: Sent event FMLConstructionEvent to mod Waila
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Waila took 0.012s
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.518s
+[20:59:58] [Server thread/DEBUG] [FML/]: Mod signature data
+[20:59:58] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[20:59:58] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[20:59:58] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[20:59:58] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[20:59:58] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[20:59:58] [Server thread/DEBUG] [FML/]: 		tfc_coremod	(TFC[coremod]	0.79.29)	minecraft.jar
+[20:59:58] [Server thread/DEBUG] [FML/]: 		CodeChickenCore	(CodeChicken Core	1.0.7.47)	minecraft.jar
+[20:59:58] [Server thread/DEBUG] [FML/]: 		NotEnoughItems	(Not Enough Items	1.0.5.120)	NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[20:59:58] [Server thread/DEBUG] [FML/]: 		terrafirmacraft	(TerraFirmaCraft	0.79.29)	1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[20:59:58] [Server thread/DEBUG] [FML/]: 		journeymap	(JourneyMap	5.1.4p1)	journeymap-1.7.10-5.1.4p1-unlimited.jar
+[20:59:58] [Server thread/DEBUG] [FML/]: 		TerraFirmaCraftNEIplugin	(TerraFirmaCraftNEIplugin	1.5.3.25)	TerraFirmaCraftNEIplugin-1.7.10-1.5.3.25.jar
+[20:59:58] [Server thread/DEBUG] [FML/]: 		Waila	(Waila	1.5.10)	Waila-1.5.10_1.7.10.jar
+[20:59:58] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[20:59:58] [Server thread/INFO] [FML/]: Found 338 ObjectHolder annotations
+[20:59:58] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[20:59:58] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[20:59:58] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[20:59:58] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[20:59:58] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[20:59:58] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[20:59:58] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[20:59:58] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[20:59:58] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[20:59:59] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[20:59:59] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.040s
+[20:59:59] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLPreInitializationEvent to mod tfc_coremod
+[20:59:59] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLPreInitializationEvent to mod tfc_coremod
+[20:59:59] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - TFC[coremod] took 0.000s
+[20:59:59] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLPreInitializationEvent to mod CodeChickenCore
+[20:59:59] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLPreInitializationEvent to mod CodeChickenCore
+[20:59:59] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CodeChicken Core took 0.000s
+[20:59:59] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLPreInitializationEvent to mod NotEnoughItems
+[20:59:59] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLPreInitializationEvent to mod NotEnoughItems
+[20:59:59] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Not Enough Items took 0.009s
+[20:59:59] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLPreInitializationEvent to mod terrafirmacraft
+[20:59:59] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading TFCConfig
+[20:59:59] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading Blocks
+[20:59:59] [Server thread/TRACE] [FML/terrafirmacraft]: Automatically registered mod terrafirmacraft entity javelin as terrafirmacraft.javelin
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySquidTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityCowTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityWolfTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityBear
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityChickenTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityPigTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityDeer
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityCustomMinecart
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySkeletonTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityZombieTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySpiderTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySlimeTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySilverfishTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityGhastTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityCaveSpiderTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityBlazeTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityEndermanTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityPigZombieTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityIronGolemTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityCreeperTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityStand
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityPheasantTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityFishTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityFallingBlockTFC
+[20:59:59] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityBarrel
+[20:59:59] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading Items
+[21:00:00] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Registering Items
+[21:00:00] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Registering Food
+[21:00:00] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Registering Armor
+[21:00:00] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: All Items Registered
+[21:00:00] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Finished Loading Items
+[21:00:00] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLPreInitializationEvent to mod terrafirmacraft
+[21:00:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - TerraFirmaCraft took 1.558s
+[21:00:00] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLPreInitializationEvent to mod journeymap
+[21:00:00] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLPreInitializationEvent to mod journeymap
+[21:00:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - JourneyMap took 0.004s
+[21:00:00] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLPreInitializationEvent to mod TerraFirmaCraftNEIplugin
+[21:00:00] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLPreInitializationEvent to mod TerraFirmaCraftNEIplugin
+[21:00:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - TerraFirmaCraftNEIplugin took 0.010s
+[21:00:00] [Server thread/TRACE] [Waila/Waila]: Sending event FMLPreInitializationEvent to mod Waila
+[21:00:00] [Server thread/TRACE] [Waila/Waila]: Sent event FMLPreInitializationEvent to mod Waila
+[21:00:00] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Waila took 0.023s
+[21:00:00] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 1.645s
+[21:00:00] [Server thread/INFO] [FML/]: Applying holder lookups
+[21:00:00] [Server thread/INFO] [FML/]: Holder lookups applied
+[21:00:00] [Server thread/INFO] [FML/]: Injecting itemstacks
+[21:00:00] [Server thread/INFO] [FML/]: Itemstack injection complete
+[21:00:01] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[21:00:01] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[21:00:01] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[21:00:01] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[21:00:01] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[21:00:01] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLInitializationEvent to mod tfc_coremod
+[21:00:01] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLInitializationEvent to mod tfc_coremod
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - TFC[coremod] took 0.000s
+[21:00:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLInitializationEvent to mod CodeChickenCore
+[21:00:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLInitializationEvent to mod CodeChickenCore
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - CodeChicken Core took 0.000s
+[21:00:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLInitializationEvent to mod NotEnoughItems
+[21:00:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLInitializationEvent to mod NotEnoughItems
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Not Enough Items took 0.033s
+[21:00:01] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLInitializationEvent to mod terrafirmacraft
+[21:00:01] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading TFCCrafting
+[21:00:01] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLInitializationEvent to mod terrafirmacraft
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - TerraFirmaCraft took 0.447s
+[21:00:01] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLInitializationEvent to mod journeymap
+[21:00:01] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLInitializationEvent to mod journeymap
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - JourneyMap took 0.017s
+[21:00:01] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLInitializationEvent to mod TerraFirmaCraftNEIplugin
+[21:00:01] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLInitializationEvent to mod TerraFirmaCraftNEIplugin
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - TerraFirmaCraftNEIplugin took 0.000s
+[21:00:01] [Server thread/TRACE] [Waila/Waila]: Sending event FMLInitializationEvent to mod Waila
+[21:00:01] [Server thread/TRACE] [Waila/Waila]: Sent event FMLInitializationEvent to mod Waila
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Waila took 0.002s
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.502s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[21:00:01] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[21:00:01] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.005s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[21:00:01] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[21:00:01] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[21:00:01] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[21:00:01] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod tfc_coremod
+[21:00:01] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event IMCEvent to mod tfc_coremod
+[21:00:01] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event IMCEvent to mod tfc_coremod
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TFC[coremod] took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod CodeChickenCore
+[21:00:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event IMCEvent to mod CodeChickenCore
+[21:00:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event IMCEvent to mod CodeChickenCore
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - CodeChicken Core took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod NotEnoughItems
+[21:00:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event IMCEvent to mod NotEnoughItems
+[21:00:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event IMCEvent to mod NotEnoughItems
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Not Enough Items took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod terrafirmacraft
+[21:00:01] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event IMCEvent to mod terrafirmacraft
+[21:00:01] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event IMCEvent to mod terrafirmacraft
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TerraFirmaCraft took 0.001s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod journeymap
+[21:00:01] [Server thread/TRACE] [journeymap/journeymap]: Sending event IMCEvent to mod journeymap
+[21:00:01] [Server thread/TRACE] [journeymap/journeymap]: Sent event IMCEvent to mod journeymap
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - JourneyMap took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod TerraFirmaCraftNEIplugin
+[21:00:01] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event IMCEvent to mod TerraFirmaCraftNEIplugin
+[21:00:01] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event IMCEvent to mod TerraFirmaCraftNEIplugin
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TerraFirmaCraftNEIplugin took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/]: Attempting to deliver 3 IMC messages to mod Waila
+[21:00:01] [Server thread/TRACE] [Waila/Waila]: Sending event IMCEvent to mod Waila
+[21:00:01] [Server thread/INFO] [Waila/Waila]: Receiving registration request from [ terrafirmacraft ] for method com.bioxx.tfc.WAILA.WAILAData.callbackRegister
+[21:00:01] [Server thread/INFO] [Waila/Waila]: Receiving registration request from [ terrafirmacraft ] for method com.bioxx.tfc.WAILA.WMobs.callbackRegister
+[21:00:01] [Server thread/INFO] [Waila/Waila]: Receiving registration request from [ terrafirmacraft ] for method com.bioxx.tfc.WAILA.WCrucible.callbackRegister
+[21:00:01] [Server thread/TRACE] [Waila/Waila]: Sent event IMCEvent to mod Waila
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Waila took 0.029s
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.036s
+[21:00:01] [Server thread/INFO] [FML/]: Injecting itemstacks
+[21:00:01] [Server thread/INFO] [FML/]: Itemstack injection complete
+[21:00:01] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[21:00:01] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[21:00:01] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[21:00:01] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[21:00:01] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.008s
+[21:00:01] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLPostInitializationEvent to mod tfc_coremod
+[21:00:01] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLPostInitializationEvent to mod tfc_coremod
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - TFC[coremod] took 0.000s
+[21:00:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLPostInitializationEvent to mod CodeChickenCore
+[21:00:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLPostInitializationEvent to mod CodeChickenCore
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - CodeChicken Core took 0.000s
+[21:00:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLPostInitializationEvent to mod NotEnoughItems
+[21:00:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLPostInitializationEvent to mod NotEnoughItems
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Not Enough Items took 0.000s
+[21:00:01] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLPostInitializationEvent to mod terrafirmacraft
+[21:00:01] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading TFCOres
+[21:00:01] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLPostInitializationEvent to mod terrafirmacraft
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - TerraFirmaCraft took 0.012s
+[21:00:01] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLPostInitializationEvent to mod journeymap
+[21:00:01] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLPostInitializationEvent to mod journeymap
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - JourneyMap took 0.000s
+[21:00:01] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLPostInitializationEvent to mod TerraFirmaCraftNEIplugin
+[21:00:01] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLPostInitializationEvent to mod TerraFirmaCraftNEIplugin
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - TerraFirmaCraftNEIplugin took 0.000s
+[21:00:01] [Server thread/TRACE] [Waila/Waila]: Sending event FMLPostInitializationEvent to mod Waila
+[21:00:01] [Server thread/TRACE] [Waila/Waila]: Sent event FMLPostInitializationEvent to mod Waila
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Waila took 0.002s
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.024s
+[21:00:01] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[21:00:01] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[21:00:01] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[21:00:01] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[21:00:01] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[21:00:01] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[21:00:01] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[21:00:01] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[21:00:01] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.012s
+[21:00:01] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLLoadCompleteEvent to mod tfc_coremod
+[21:00:01] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLLoadCompleteEvent to mod tfc_coremod
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - TFC[coremod] took 0.000s
+[21:00:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLLoadCompleteEvent to mod CodeChickenCore
+[21:00:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLLoadCompleteEvent to mod CodeChickenCore
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - CodeChicken Core took 0.000s
+[21:00:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLLoadCompleteEvent to mod NotEnoughItems
+[21:00:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLLoadCompleteEvent to mod NotEnoughItems
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Not Enough Items took 0.000s
+[21:00:01] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLLoadCompleteEvent to mod terrafirmacraft
+[21:00:01] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLLoadCompleteEvent to mod terrafirmacraft
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - TerraFirmaCraft took 0.000s
+[21:00:01] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLLoadCompleteEvent to mod journeymap
+[21:00:01] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLLoadCompleteEvent to mod journeymap
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - JourneyMap took 0.000s
+[21:00:01] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLLoadCompleteEvent to mod TerraFirmaCraftNEIplugin
+[21:00:01] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLLoadCompleteEvent to mod TerraFirmaCraftNEIplugin
+[21:00:01] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - TerraFirmaCraftNEIplugin took 0.000s
+[21:00:01] [Server thread/TRACE] [Waila/Waila]: Sending event FMLLoadCompleteEvent to mod Waila
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [IndustrialCraft 2] Error while loading generator hooks.java.lang.ClassNotFoundException: ic2.core.block.generator.tileentity.TileEntityBaseGenerator
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [Thaumcraft] Class not found. java.lang.ClassNotFoundException: thaumcraft.common.Thaumcraft
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [EnderStorage] EnderStorage mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [GraveStone] GraveStone mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [TwilightForestMod] TwilightForestMod mod not found.
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Energy hooks.java.lang.ClassNotFoundException: cofh.api.energy.IEnergyProvider
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cell.TileCell
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.tank.TileTank
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.ender.TileTesseract
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cache.TileCache
+[21:00:01] [Server thread/WARN] [Waila/Waila]: [Thermal Dynamics] Error while loading FluidDuct hooks.java.lang.ClassNotFoundException: cofh.thermaldynamics.ducts.fluid.TileFluidDuct
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [Engineer Toolbox] Engineer Toolbox mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [ProjectRed] ProjectRed|Integration mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [ExtraUtilities] ExtraUtilities mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [OpenBlocks] OpenBlocks mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [Railcraft] Railcraft mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [PamHarvestCraft] PamHarvestCraft mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [MagicalCrops] MagicalCrops mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [Statues] Statues mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: [Agriculture] Agriculture mod not found.
+[21:00:01] [Server thread/INFO] [Waila/Waila]: Trying to reflect com.bioxx.tfc.WAILA.WAILAData callbackRegister
+[21:00:01] [Server thread/INFO] [Waila/Waila]: Success in registering terrafirmacraft
+[21:00:01] [Server thread/INFO] [Waila/Waila]: Trying to reflect com.bioxx.tfc.WAILA.WMobs callbackRegister
+[21:00:01] [Server thread/INFO] [Waila/Waila]: Success in registering terrafirmacraft
+[21:00:02] [Server thread/INFO] [Waila/Waila]: Trying to reflect com.bioxx.tfc.WAILA.WCrucible callbackRegister
+[21:00:02] [Server thread/INFO] [Waila/Waila]: Success in registering terrafirmacraft
+[21:00:02] [Server thread/TRACE] [Waila/Waila]: Sent event FMLLoadCompleteEvent to mod Waila
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Waila took 0.402s
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.415s
+[21:00:02] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[21:00:02] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:00:02] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:00:02] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 10 mods
+[21:00:02] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[21:00:02] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[21:00:02] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[21:00:02] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[21:00:02] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[21:00:02] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[21:00:02] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerAboutToStartEvent to mod tfc_coremod
+[21:00:02] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerAboutToStartEvent to mod tfc_coremod
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TFC[coremod] took 0.000s
+[21:00:02] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerAboutToStartEvent to mod CodeChickenCore
+[21:00:02] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerAboutToStartEvent to mod CodeChickenCore
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - CodeChicken Core took 0.000s
+[21:00:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerAboutToStartEvent to mod NotEnoughItems
+[21:00:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerAboutToStartEvent to mod NotEnoughItems
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Not Enough Items took 0.000s
+[21:00:02] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerAboutToStartEvent to mod terrafirmacraft
+[21:00:02] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerAboutToStartEvent to mod terrafirmacraft
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TerraFirmaCraft took 0.000s
+[21:00:02] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerAboutToStartEvent to mod journeymap
+[21:00:02] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerAboutToStartEvent to mod journeymap
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - JourneyMap took 0.000s
+[21:00:02] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLServerAboutToStartEvent to mod TerraFirmaCraftNEIplugin
+[21:00:02] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLServerAboutToStartEvent to mod TerraFirmaCraftNEIplugin
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TerraFirmaCraftNEIplugin took 0.000s
+[21:00:02] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerAboutToStartEvent to mod Waila
+[21:00:02] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerAboutToStartEvent to mod Waila
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Waila took 0.000s
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.002s
+[21:00:02] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[21:00:02] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:00:02] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:00:02] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[21:00:02] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[21:00:02] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[21:00:02] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[21:00:02] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[21:00:02] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.002s
+[21:00:02] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLModIdMappingEvent to mod tfc_coremod
+[21:00:02] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLModIdMappingEvent to mod tfc_coremod
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TFC[coremod] took 0.000s
+[21:00:02] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLModIdMappingEvent to mod CodeChickenCore
+[21:00:02] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLModIdMappingEvent to mod CodeChickenCore
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CodeChicken Core took 0.001s
+[21:00:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLModIdMappingEvent to mod NotEnoughItems
+[21:00:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLModIdMappingEvent to mod NotEnoughItems
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Not Enough Items took 0.001s
+[21:00:02] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLModIdMappingEvent to mod terrafirmacraft
+[21:00:02] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLModIdMappingEvent to mod terrafirmacraft
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TerraFirmaCraft took 0.003s
+[21:00:02] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLModIdMappingEvent to mod journeymap
+[21:00:02] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLModIdMappingEvent to mod journeymap
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JourneyMap took 0.000s
+[21:00:02] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLModIdMappingEvent to mod TerraFirmaCraftNEIplugin
+[21:00:02] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLModIdMappingEvent to mod TerraFirmaCraftNEIplugin
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TerraFirmaCraftNEIplugin took 0.000s
+[21:00:02] [Server thread/TRACE] [Waila/Waila]: Sending event FMLModIdMappingEvent to mod Waila
+[21:00:02] [Server thread/TRACE] [Waila/Waila]: Sent event FMLModIdMappingEvent to mod Waila
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Waila took 0.000s
+[21:00:02] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.009s
+[21:00:02] [Server thread/INFO] [FML/]: Applying holder lookups
+[21:00:02] [Server thread/INFO] [FML/]: Holder lookups applied
+[21:00:02] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:ryewhiskey has been selected as the default fluid for ryewhiskey
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:saltwater has been selected as the default fluid for saltwater
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:beer has been selected as the default fluid for beer
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:sake has been selected as the default fluid for sake
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:milkvinegar has been selected as the default fluid for milkvinegar
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:cornwhiskey has been selected as the default fluid for cornwhiskey
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:brine has been selected as the default fluid for brine
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:cider has been selected as the default fluid for cider
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:rum has been selected as the default fluid for rum
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:freshwater has been selected as the default fluid for freshwater
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:milk has been selected as the default fluid for milk
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:vinegar has been selected as the default fluid for vinegar
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:vodka has been selected as the default fluid for vodka
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:whiskey has been selected as the default fluid for whiskey
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:milkcurdled has been selected as the default fluid for milkcurdled
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:oliveoil has been selected as the default fluid for oliveoil
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:hotwater has been selected as the default fluid for hotwater
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:lavatfc has been selected as the default fluid for lavatfc
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:tannin has been selected as the default fluid for tannin
+[21:00:02] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:limewater has been selected as the default fluid for limewater
+[21:00:02] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@37140f92)
+[21:00:02] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@37140f92)
+[21:00:02] [Server thread/DEBUG] [NotEnoughItems/]: Loading NEI Server
+[21:00:02] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@37140f92)
+[21:00:03] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[21:00:03] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[21:00:03] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.001s
+[21:00:03] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[21:00:03] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[21:00:03] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.001s
+[21:00:03] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[21:00:03] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[21:00:03] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.005s
+[21:00:03] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStartingEvent to mod tfc_coremod
+[21:00:03] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStartingEvent to mod tfc_coremod
+[21:00:03] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TFC[coremod] took 0.000s
+[21:00:03] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStartingEvent to mod CodeChickenCore
+[21:00:03] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStartingEvent to mod CodeChickenCore
+[21:00:03] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - CodeChicken Core took 0.000s
+[21:00:03] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStartingEvent to mod NotEnoughItems
+[21:00:03] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStartingEvent to mod NotEnoughItems
+[21:00:03] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Not Enough Items took 0.000s
+[21:00:03] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStartingEvent to mod terrafirmacraft
+[21:00:03] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStartingEvent to mod terrafirmacraft
+[21:00:03] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TerraFirmaCraft took 0.047s
+[21:00:03] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStartingEvent to mod journeymap
+[21:00:03] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStartingEvent to mod journeymap
+[21:00:03] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - JourneyMap took 0.008s
+[21:00:04] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLServerStartingEvent to mod TerraFirmaCraftNEIplugin
+[21:00:04] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLServerStartingEvent to mod TerraFirmaCraftNEIplugin
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TerraFirmaCraftNEIplugin took 0.003s
+[21:00:04] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStartingEvent to mod Waila
+[21:00:04] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStartingEvent to mod Waila
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Waila took 0.002s
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.067s
+[21:00:04] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[21:00:04] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.003s
+[21:00:04] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[21:00:04] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[21:00:04] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[21:00:04] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[21:00:04] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStartedEvent to mod tfc_coremod
+[21:00:04] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStartedEvent to mod tfc_coremod
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TFC[coremod] took 0.000s
+[21:00:04] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStartedEvent to mod CodeChickenCore
+[21:00:04] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStartedEvent to mod CodeChickenCore
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - CodeChicken Core took 0.000s
+[21:00:04] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStartedEvent to mod NotEnoughItems
+[21:00:04] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStartedEvent to mod NotEnoughItems
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Not Enough Items took 0.000s
+[21:00:04] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStartedEvent to mod terrafirmacraft
+[21:00:04] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStartedEvent to mod terrafirmacraft
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TerraFirmaCraft took 0.000s
+[21:00:04] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStartedEvent to mod journeymap
+[21:00:04] [Server thread/INFO] [journeymap/journeymap]: World ID: c6f03cf3-7b2a-482b-b9be-238da291f302
+[21:00:04] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStartedEvent to mod journeymap
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - JourneyMap took 0.031s
+[21:00:04] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLServerStartedEvent to mod TerraFirmaCraftNEIplugin
+[21:00:04] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLServerStartedEvent to mod TerraFirmaCraftNEIplugin
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TerraFirmaCraftNEIplugin took 0.000s
+[21:00:04] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStartedEvent to mod Waila
+[21:00:04] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStartedEvent to mod Waila
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Waila took 0.000s
+[21:00:04] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.036s
+[21:00:10] [Server thread/DEBUG] [CCL ASM/]: NEI: Applying workbench fix
+[21:00:10] [Netty IO #2/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:00:10] [Netty IO #2/INFO] [FML/]: Client protocol version 2
+[21:00:10] [Netty IO #2/TRACE] [FML/]: $ModList:10 mods->FMLHandshakeServerState$2:HELLO
+[21:00:10] [Netty IO #2/INFO] [FML/]: Client attempting to join with 10 mods : CodeChickenCore@1.0.7.47,NotEnoughItems@1.0.5.120,Waila@1.5.10,FML@7.10.99.99,terrafirmacraft@0.79.29,tfc_coremod@0.79.29,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.4p1,TerraFirmaCraftNEIplugin@1.5.3.25
+[21:00:10] [Netty IO #2/INFO] [journeymap/]: CLIENT
+[21:00:10] [Netty IO #2/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:00:10] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:00:11] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:00:11] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:00:11] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:00:11] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:00:11] [Server thread/DEBUG] [NotEnoughItems/]: Loading Player: WINDWOOD
+[21:00:11] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: WINDWOOD
+[21:00:11] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCConfig
+[21:00:11] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCOres
+[21:00:11] [Server thread/INFO] [TerraFirmaCraft/]: Reloading TFCCrafting
+[21:00:11] [Server thread/INFO] [Waila/]: Player EntityPlayerMP['WINDWOOD'/4, l='world', x=1567.81, y=150.00, z=-8447.44] connected. Sending ping
+[21:00:18] [Netty IO #5/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:00:18] [Netty IO #5/INFO] [FML/]: Client protocol version 2
+[21:00:18] [Netty IO #5/TRACE] [FML/]: $ModList:10 mods->FMLHandshakeServerState$2:HELLO
+[21:00:18] [Netty IO #5/INFO] [FML/]: Client attempting to join with 10 mods : CodeChickenCore@1.0.7.47,NotEnoughItems@1.0.5.120,Waila@1.5.10,FML@7.10.99.99,terrafirmacraft@0.79.29,tfc_coremod@0.79.29,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.4p1,TerraFirmaCraftNEIplugin@1.5.3.25
+[21:00:18] [Netty IO #5/INFO] [journeymap/]: CLIENT
+[21:00:18] [Netty IO #5/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:00:18] [Netty IO #5/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:00:18] [Netty IO #5/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:00:18] [Netty IO #5/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:00:18] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:00:18] [Netty IO #5/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:00:18] [Server thread/DEBUG] [NotEnoughItems/]: Loading Player: WOOG1E_
+[21:00:18] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: WOOG1E_
+[21:00:18] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCConfig
+[21:00:18] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCOres
+[21:00:18] [Server thread/INFO] [TerraFirmaCraft/]: Reloading TFCCrafting
+[21:00:18] [Server thread/INFO] [Waila/]: Player EntityPlayerMP['WOOG1E_'/512, l='world', x=1572.84, y=150.00, z=-8451.63] connected. Sending ping
+[21:00:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:01:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:02:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:03:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:03:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:04:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:05:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:06:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:06:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:07:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:08:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:09:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:09:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:10:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:11:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:12:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:12:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:13:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:14:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:15:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:15:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:16:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:17:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:18:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:18:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:19:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:20:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:21:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:21:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:22:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:22:34] [Server thread/DEBUG] [NotEnoughItems/]: Unloading Player: WINDWOOD
+[21:22:38] [Netty IO #0/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:22:38] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[21:22:38] [Netty IO #0/TRACE] [FML/]: $ModList:10 mods->FMLHandshakeServerState$2:HELLO
+[21:22:38] [Netty IO #0/INFO] [FML/]: Client attempting to join with 10 mods : CodeChickenCore@1.0.7.47,NotEnoughItems@1.0.5.120,Waila@1.5.10,FML@7.10.99.99,terrafirmacraft@0.79.29,tfc_coremod@0.79.29,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.4p1,TerraFirmaCraftNEIplugin@1.5.3.25
+[21:22:38] [Netty IO #0/INFO] [journeymap/]: CLIENT
+[21:22:38] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:22:38] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:22:38] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:22:38] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:22:38] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:22:38] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:22:38] [Server thread/DEBUG] [NotEnoughItems/]: Loading Player: WINDWOOD
+[21:22:38] [Server thread/DEBUG] [NotEnoughItems/]: Sending serverside check to: WINDWOOD
+[21:22:38] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCConfig
+[21:22:38] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCOres
+[21:22:38] [Server thread/INFO] [TerraFirmaCraft/]: Reloading TFCCrafting
+[21:22:38] [Server thread/INFO] [Waila/]: Player EntityPlayerMP['WINDWOOD'/315889, l='world', x=1686.80, y=144.00, z=-8584.10] connected. Sending ping
+[21:23:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:24:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:24:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:25:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:26:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:27:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:27:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:28:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:29:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:29:28] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[21:29:28] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[21:29:28] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[21:29:28] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[21:29:28] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[21:29:28] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[21:29:28] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStoppingEvent to mod tfc_coremod
+[21:29:28] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStoppingEvent to mod tfc_coremod
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - TFC[coremod] took 0.000s
+[21:29:28] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStoppingEvent to mod CodeChickenCore
+[21:29:28] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStoppingEvent to mod CodeChickenCore
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - CodeChicken Core took 0.000s
+[21:29:28] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStoppingEvent to mod NotEnoughItems
+[21:29:28] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStoppingEvent to mod NotEnoughItems
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Not Enough Items took 0.000s
+[21:29:28] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStoppingEvent to mod terrafirmacraft
+[21:29:28] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStoppingEvent to mod terrafirmacraft
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - TerraFirmaCraft took 0.000s
+[21:29:28] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStoppingEvent to mod journeymap
+[21:29:28] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStoppingEvent to mod journeymap
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - JourneyMap took 0.000s
+[21:29:28] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLServerStoppingEvent to mod TerraFirmaCraftNEIplugin
+[21:29:28] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLServerStoppingEvent to mod TerraFirmaCraftNEIplugin
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - TerraFirmaCraftNEIplugin took 0.000s
+[21:29:28] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStoppingEvent to mod Waila
+[21:29:28] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStoppingEvent to mod Waila
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Waila took 0.000s
+[21:29:28] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.002s
+[21:29:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:29:29] [Server thread/INFO] [FML/]: Unloading dimension 0
+[21:29:29] [Server thread/INFO] [FML/]: Unloading dimension -1
+[21:29:29] [Server thread/INFO] [FML/]: Unloading dimension 1
+[21:29:29] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[21:29:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[21:29:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[21:29:29] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[21:29:29] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[21:29:29] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[21:29:29] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s
+[21:29:29] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLModIdMappingEvent to mod tfc_coremod
+[21:29:29] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLModIdMappingEvent to mod tfc_coremod
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TFC[coremod] took 0.000s
+[21:29:29] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLModIdMappingEvent to mod CodeChickenCore
+[21:29:29] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLModIdMappingEvent to mod CodeChickenCore
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CodeChicken Core took 0.000s
+[21:29:29] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLModIdMappingEvent to mod NotEnoughItems
+[21:29:29] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLModIdMappingEvent to mod NotEnoughItems
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Not Enough Items took 0.000s
+[21:29:29] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLModIdMappingEvent to mod terrafirmacraft
+[21:29:29] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLModIdMappingEvent to mod terrafirmacraft
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TerraFirmaCraft took 0.000s
+[21:29:29] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLModIdMappingEvent to mod journeymap
+[21:29:29] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLModIdMappingEvent to mod journeymap
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JourneyMap took 0.000s
+[21:29:29] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLModIdMappingEvent to mod TerraFirmaCraftNEIplugin
+[21:29:29] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLModIdMappingEvent to mod TerraFirmaCraftNEIplugin
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TerraFirmaCraftNEIplugin took 0.000s
+[21:29:29] [Server thread/TRACE] [Waila/Waila]: Sending event FMLModIdMappingEvent to mod Waila
+[21:29:29] [Server thread/TRACE] [Waila/Waila]: Sent event FMLModIdMappingEvent to mod Waila
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Waila took 0.000s
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.003s
+[21:29:29] [Server thread/INFO] [FML/]: Applying holder lookups
+[21:29:29] [Server thread/INFO] [FML/]: Holder lookups applied
+[21:29:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[21:29:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[21:29:29] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[21:29:29] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[21:29:29] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[21:29:29] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+[21:29:29] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStoppedEvent to mod tfc_coremod
+[21:29:29] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStoppedEvent to mod tfc_coremod
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TFC[coremod] took 0.000s
+[21:29:29] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStoppedEvent to mod CodeChickenCore
+[21:29:29] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStoppedEvent to mod CodeChickenCore
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CodeChicken Core took 0.000s
+[21:29:29] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStoppedEvent to mod NotEnoughItems
+[21:29:29] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStoppedEvent to mod NotEnoughItems
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Not Enough Items took 0.000s
+[21:29:29] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStoppedEvent to mod terrafirmacraft
+[21:29:29] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStoppedEvent to mod terrafirmacraft
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TerraFirmaCraft took 0.000s
+[21:29:29] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStoppedEvent to mod journeymap
+[21:29:29] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStoppedEvent to mod journeymap
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JourneyMap took 0.000s
+[21:29:29] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sending event FMLServerStoppedEvent to mod TerraFirmaCraftNEIplugin
+[21:29:29] [Server thread/TRACE] [TerraFirmaCraftNEIplugin/TerraFirmaCraftNEIplugin]: Sent event FMLServerStoppedEvent to mod TerraFirmaCraftNEIplugin
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TerraFirmaCraftNEIplugin took 0.001s
+[21:29:29] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStoppedEvent to mod Waila
+[21:29:29] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStoppedEvent to mod Waila
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Waila took 0.001s
+[21:29:29] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.006s
