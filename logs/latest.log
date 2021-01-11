@@ -1,17 +1,91 @@
-[00:10:24] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[00:10:27] [Server thread/INFO]: Loading properties
-[00:10:28] [Server thread/INFO]: Default game type: SURVIVAL
-[00:10:28] [Server thread/INFO]: Generating keypair
-[00:10:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:10:28] [Server thread/INFO]: Preparing level "world"
-[00:10:29] [Server thread/INFO]: Preparing start region for level 0
-[00:10:30] [Server thread/INFO]: Preparing spawn area: 83%
-[00:10:30] [Server thread/INFO]: Done (1.423s)! For help, type "help" or "?"
-[00:10:37] [User Authenticator #1/INFO]: UUID of player WOOG1E_ is b190ddc5-c6fb-4219-9b99-03260299d72a
-[00:10:39] [Server thread/INFO]: Stopping the server
-[00:10:39] [Server thread/INFO]: Stopping server
-[00:10:39] [Server thread/INFO]: Saving players
-[00:10:39] [Server thread/INFO]: Saving worlds
-[00:10:39] [Server thread/INFO]: Saving chunks for level 'world'/DEFAULT
-[00:10:40] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[00:10:40] [Server thread/INFO]: Saving chunks for level 'world'/DEFAULT
+[16:56:40] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[16:56:43] [Server thread/INFO]: Loading properties
+[16:56:43] [Server thread/INFO]: Default game type: SURVIVAL
+[16:56:43] [Server thread/INFO]: Generating keypair
+[16:56:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:56:44] [Server thread/INFO]: Preparing level "world"
+[16:56:44] [Server thread/INFO]: Preparing start region for level 0
+[16:56:45] [Server thread/INFO]: Preparing spawn area: 7%
+[16:56:47] [Server thread/INFO]: Preparing spawn area: 21%
+[16:56:48] [Server thread/INFO]: Preparing spawn area: 40%
+[16:56:49] [Server thread/INFO]: Preparing spawn area: 53%
+[16:56:50] [Server thread/INFO]: Preparing spawn area: 71%
+[16:56:51] [Server thread/INFO]: Preparing spawn area: 91%
+[16:56:51] [Server thread/INFO]: Done (7.689s)! For help, type "help" or "?"
+[16:56:58] [User Authenticator #1/INFO]: UUID of player WOOG1E_ is b190ddc5-c6fb-4219-9b99-03260299d72a
+[16:56:58] [Server thread/INFO]: WOOG1E_[/61.74.197.94:7500] logged in with entity id 41 at (1977.5, 144.0, -13785.5)
+[16:56:58] [Server thread/INFO]: WOOG1E_ joined the game
+[16:57:12] [User Authenticator #2/INFO]: UUID of player WINDWOOD is 90128fd7-e611-4771-8961-83f74f954cca
+[16:57:12] [Server thread/INFO]: WINDWOOD[/222.106.63.101:55913] logged in with entity id 3286 at (1989.5, 144.0, -13778.5)
+[16:57:12] [Server thread/INFO]: WINDWOOD joined the game
+[16:57:18] [Server thread/INFO]: WOOG1E_ has just earned the achievement [Definitely a rock]
+[16:57:30] [Server thread/INFO]: WOOG1E_ has just earned the achievement [Paleolithic!]
+[16:57:41] [Server thread/INFO]: WINDWOOD has just earned the achievement [Definitely a rock]
+[16:57:43] [Server thread/INFO]: WOOG1E_ has just earned the achievement [Taking Inventory]
+[16:58:49] [Server thread/INFO]: WINDWOOD has just earned the achievement [Steve Irwin]
+[16:59:05] [Server thread/INFO]: [WOOG1E_: Set game difficulty to Peaceful]
+[17:01:19] [Server thread/INFO]: WINDWOOD has just earned the achievement [No stone unturned]
+[17:01:20] [Server thread/INFO]: WINDWOOD has just earned the achievement [Taking Inventory]
+[17:03:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3374ms behind, skipping 67 tick(s)
+[17:03:39] [Server thread/INFO]: WOOG1E_ has just earned the achievement [Gatherer]
+[17:04:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6561ms behind, skipping 131 tick(s)
+[17:04:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2439ms behind, skipping 48 tick(s)
+[17:04:26] [Server thread/INFO]: WINDWOOD has just earned the achievement [Gatherer]
+[17:04:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6661ms behind, skipping 133 tick(s)
+[17:04:43] [Server thread/INFO]: WOOG1E_ has just earned the achievement [No stone unturned]
+[17:05:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2048ms behind, skipping 40 tick(s)
+[17:05:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10565ms behind, skipping 211 tick(s)
+[17:06:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6802ms behind, skipping 136 tick(s)
+[17:10:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2092ms behind, skipping 41 tick(s)
+[17:10:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3526ms behind, skipping 70 tick(s)
+[17:13:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2092ms behind, skipping 41 tick(s)
+[17:13:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5458ms behind, skipping 109 tick(s)
+[17:14:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2086ms behind, skipping 41 tick(s)
+[17:14:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2266ms behind, skipping 45 tick(s)
+[17:15:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13314ms behind, skipping 266 tick(s)
+[17:15:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3026ms behind, skipping 60 tick(s)
+[17:16:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2071ms behind, skipping 41 tick(s)
+[17:16:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3584ms behind, skipping 71 tick(s)
+[17:16:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2978ms behind, skipping 59 tick(s)
+[17:16:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2206ms behind, skipping 44 tick(s)
+[17:17:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2485ms behind, skipping 49 tick(s)
+[17:17:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4981ms behind, skipping 99 tick(s)
+[17:18:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2064ms behind, skipping 41 tick(s)
+[17:18:31] [Server thread/INFO]: <WOOG1E_> 2000, -13000
+[17:18:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7073ms behind, skipping 141 tick(s)
+[17:19:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2679ms behind, skipping 53 tick(s)
+[17:23:43] [Server thread/INFO]: WINDWOOD has just earned the achievement [Paleolithic!]
+[17:38:36] [Server thread/INFO]: WOOG1E_ fell from a high place
+[17:38:40] [Server thread/INFO]: [WOOG1E_: Teleported WOOG1E_ to WINDWOOD]
+[17:38:43] [Server thread/INFO]: [WOOG1E_: Set own game mode to Creative Mode]
+[17:38:51] [Server thread/INFO]: [WOOG1E_: Set own game mode to Survival Mode]
+[17:39:27] [Server thread/INFO]: [WOOG1E_: Teleported WOOG1E_ to WINDWOOD]
+[17:44:51] [Server thread/INFO]: WINDWOOD has just earned the achievement [Double Trouble]
+[17:58:15] [Server thread/INFO]: WINDWOOD lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[17:58:15] [Server thread/INFO]: WINDWOOD left the game
+[18:00:00] [Server thread/INFO]: WOOG1E_ lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:00:00] [Server thread/INFO]: WOOG1E_ left the game
+[18:00:13] [User Authenticator #3/INFO]: UUID of player WOOG1E_ is b190ddc5-c6fb-4219-9b99-03260299d72a
+[18:00:13] [Server thread/INFO]: WOOG1E_[/61.74.197.94:7419] logged in with entity id 1838716 at (2866.300000011921, 126.47623829634533, -13473.956110098754)
+[18:00:13] [Server thread/INFO]: WOOG1E_ joined the game
+[18:00:14] [Server thread/INFO]: WOOG1E_ fell from a high place
+[18:00:21] [Server thread/INFO]: [WOOG1E_: Teleported WOOG1E_ to 2866.5,127.5,-13473.5]
+[18:00:21] [Server thread/WARN]: Fetching addPacket for removed entity
+[18:01:07] [Server thread/INFO]: [WOOG1E_: Set own game mode to Creative Mode]
+[18:01:16] [Server thread/INFO]: [WOOG1E_: Set own game mode to Survival Mode]
+[18:03:00] [User Authenticator #4/INFO]: UUID of player WINDWOOD is 90128fd7-e611-4771-8961-83f74f954cca
+[18:03:00] [Server thread/INFO]: WINDWOOD[/222.106.63.101:56363] logged in with entity id 1896185 at (2881.884353023559, 144.0, -13494.443026578176)
+[18:03:00] [Server thread/INFO]: WINDWOOD joined the game
+[18:03:11] [Server thread/INFO]: [WOOG1E_: Set own game mode to Creative Mode]
+[18:03:36] [Server thread/INFO]: [WOOG1E_: Set own game mode to Survival Mode]
+[18:04:34] [Server thread/INFO]: WOOG1E_ has just earned the achievement [Chalcolithic!]
+[18:04:50] [Server thread/INFO]: WINDWOOD has just earned the achievement [Chalcolithic!]
+[18:05:12] [Server thread/INFO]: WOOG1E_ has just earned the achievement [Time to Mine! (finally)]
+[18:05:24] [Server thread/INFO]: WINDWOOD lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:05:24] [Server thread/INFO]: WINDWOOD left the game
+[18:05:29] [Server thread/INFO]: [WOOG1E_: Stopping the server]
+[18:05:29] [Server thread/INFO]: Stopping server
+[18:05:29] [Server thread/INFO]: Saving players
+[18:05:29] [Server thread/INFO]: Saving worlds
+[18:05:29] [Server thread/INFO]: Saving chunks for level 'world'/DEFAULT
+[18:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Nether
