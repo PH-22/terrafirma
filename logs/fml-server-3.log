@@ -1,438 +1,499 @@
-[16:50:17] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[16:50:17] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
-[16:50:17] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_271, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_271
-[16:50:17] [main/DEBUG] [FML/]: Java classpath at launch is forge.jar
-[16:50:17] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\UZIC\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;;C:\Program Files\Bandizip\;C:\Users\UZIC\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.1\bin;;.
-[16:50:17] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
-[16:50:17] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
-[16:50:17] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[16:50:17] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
-[16:50:17] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
-[16:50:17] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
-[16:50:17] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
-[16:50:17] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
-[16:50:17] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\.
-[16:50:17] [main/DEBUG] [FML/]: Discovering coremods
-[16:50:17] [main/DEBUG] [FML/]: Examining for coremod candidacy 1.7.10-TerraFirmaCraft-0.79.30.925.jar
-[16:50:17] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in 1.7.10-TerraFirmaCraft-0.79.30.925.jar, it will be examined later for regular @Mod instances
-[16:50:17] [main/DEBUG] [FML/]: Instantiating coremod class TFCASMLoadingPlugin
-[16:50:17] [main/WARN] [FML/]: The coremod com.bioxx.tfc.TFCASMLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[16:50:17] [main/DEBUG] [FML/]: Enqueued coremod TFCASMLoadingPlugin
-[16:50:17] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:50:17] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:50:17] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:50:17] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:50:17] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:50:17] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
-[16:50:17] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
-[16:50:17] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
-[16:50:17] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
-[16:50:17] [main/DEBUG] [FML/]: Injection complete
-[16:50:17] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
-[16:50:17] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
-[16:50:18] [main/DEBUG] [FML/]: Read 527 binary patches
-[16:50:18] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[16:50:18] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
-[16:50:18] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:50:18] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
-[16:50:18] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
-[16:50:18] [main/DEBUG] [FML/]: Injection complete
-[16:50:18] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
-[16:50:18] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
-[16:50:18] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
-[16:50:18] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:50:18] [main/DEBUG] [FML/]: Injecting coremod TFCASMLoadingPlugin {com.bioxx.tfc.TFCASMLoadingPlugin} class transformers
-[16:50:18] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityRenderer
-[16:50:19] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_RenderGlobal
-[16:50:19] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityLeashKnot
-[16:50:19] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityPlayerMP
-[16:50:19] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityPlayer
-[16:50:19] [main/DEBUG] [FML/]: Injection complete
-[16:50:19] [main/DEBUG] [FML/]: Running coremod plugin for TFCASMLoadingPlugin {com.bioxx.tfc.TFCASMLoadingPlugin}
-[16:50:19] [main/DEBUG] [FML/]: Running coremod plugin TFCASMLoadingPlugin
-[16:50:19] [main/DEBUG] [FML/]: Coremod plugin class TFCASMLoadingPlugin run successfully
-[16:50:19] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:50:19] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
-[16:50:19] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
-[16:50:19] [main/DEBUG] [FML/]: Loaded 20 rules from AccessTransformer mod jar file C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\mods\1.7.10-TerraFirmaCraft-0.79.30.925.jar!META-INF/tfc_at.cfg
+[16:11:40] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[16:11:40] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[16:11:40] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_271, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_271
+[16:11:40] [main/DEBUG] [FML/]: Java classpath at launch is forge.jar
+[16:11:40] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\UZIC\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;;C:\Program Files\Bandizip\;C:\Users\UZIC\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.1\bin;;.
+[16:11:40] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[16:11:40] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[16:11:40] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[16:11:40] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[16:11:40] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[16:11:40] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[16:11:40] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[16:11:40] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[16:11:40] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\.
+[16:11:40] [main/DEBUG] [FML/]: Discovering coremods
+[16:11:40] [main/DEBUG] [FML/]: Examining for coremod candidacy 1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[16:11:40] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in 1.7.10-TerraFirmaCraft-0.79.30.925.jar, it will be examined later for regular @Mod instances
+[16:11:40] [main/DEBUG] [FML/]: Instantiating coremod class TFCASMLoadingPlugin
+[16:11:40] [main/WARN] [FML/]: The coremod com.bioxx.tfc.TFCASMLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:11:40] [main/DEBUG] [FML/]: Enqueued coremod TFCASMLoadingPlugin
+[16:11:40] [main/DEBUG] [FML/]: Examining for coremod candidacy journeymap-1.7.10-5.1.4p1-unlimited.jar
+[16:11:41] [main/DEBUG] [FML/]: Not found coremod data in journeymap-1.7.10-5.1.4p1-unlimited.jar
+[16:11:41] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:11:41] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:11:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:11:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:11:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:11:41] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[16:11:41] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[16:11:41] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[16:11:41] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:11:41] [main/DEBUG] [FML/]: Injection complete
+[16:11:41] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[16:11:41] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[16:11:41] [main/DEBUG] [FML/]: Read 527 binary patches
+[16:11:42] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:11:42] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[16:11:42] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:11:42] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[16:11:42] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[16:11:42] [main/DEBUG] [FML/]: Injection complete
+[16:11:42] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[16:11:42] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[16:11:42] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[16:11:42] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:11:42] [main/DEBUG] [FML/]: Injecting coremod TFCASMLoadingPlugin {com.bioxx.tfc.TFCASMLoadingPlugin} class transformers
+[16:11:42] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityRenderer
+[16:11:43] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_RenderGlobal
+[16:11:43] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityLeashKnot
+[16:11:43] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityPlayerMP
+[16:11:43] [main/TRACE] [FML/]: Registering transformer com.bioxx.tfc.ASM.Transform.TF_EntityPlayer
+[16:11:43] [main/DEBUG] [FML/]: Injection complete
+[16:11:43] [main/DEBUG] [FML/]: Running coremod plugin for TFCASMLoadingPlugin {com.bioxx.tfc.TFCASMLoadingPlugin}
+[16:11:43] [main/DEBUG] [FML/]: Running coremod plugin TFCASMLoadingPlugin
+[16:11:43] [main/DEBUG] [FML/]: Coremod plugin class TFCASMLoadingPlugin run successfully
+[16:11:43] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:11:43] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[16:11:43] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[16:11:43] [main/DEBUG] [FML/]: Loaded 20 rules from AccessTransformer mod jar file C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\mods\1.7.10-TerraFirmaCraft-0.79.30.925.jar!META-INF/tfc_at.cfg
 
-[16:50:19] [main/DEBUG] [FML/]: Validating minecraft
-[16:50:20] [main/DEBUG] [FML/]: Minecraft validated, launching...
-[16:50:20] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[16:50:20] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[16:50:20] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: yz | Found 2 injections
-[16:50:20] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: yz : {e | (FF)V}
-[16:50:20] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: yz Complete
-[16:50:20] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[16:50:20] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: mw | Found 1 injections
-[16:50:20] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: mw : {i | ()V}
-[16:50:20] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: mw Complete
-[16:50:20] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: su | Found 1 injections
-[16:50:20] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: su : {e | ()Z}
-[16:50:20] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: su Complete
-[16:50:21] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
-[16:50:21] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
-[16:50:22] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
-[16:50:22] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
-[16:50:22] [Server thread/DEBUG] [FML/]: File C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\config\injectedDependencies.json not found. No dependencies injected
-[16:50:22] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, com.bioxx.tfc.TerraFirmaCraftCore]
-[16:50:22] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
-[16:50:22] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\forge.jar, examining for mod candidates
-[16:50:22] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\mods\1.7.10-TerraFirmaCraft-0.79.30.925.jar
-[16:50:22] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
-[16:50:22] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[16:50:22] [Server thread/INFO] [FML/]: Searching C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\mods for mods
-[16:50:22] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file 1.7.10-TerraFirmaCraft-0.79.30.925.jar
-[16:50:22] [Server thread/DEBUG] [FML/]: Examining file forge.jar for potential mods
-[16:50:22] [Server thread/DEBUG] [FML/]: The mod container forge.jar appears to be missing an mcmod.info file
-[16:50:22] [Server thread/DEBUG] [FML/]: Examining file 1.7.10-TerraFirmaCraft-0.79.30.925.jar for potential mods
-[16:50:22] [Server thread/TRACE] [FML/]: Located mcmod.info file in file 1.7.10-TerraFirmaCraft-0.79.30.925.jar
-[16:50:22] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.bioxx.tfc.TerraFirmaCraft) - loading
-[16:50:22] [Server thread/TRACE] [terrafirmacraft/]: Using mcmod dependency info : [] [Forge@[10.13.4.1448,)] []
-[16:50:22] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
-[16:50:22] [Server thread/TRACE] [FML/]: Received a system property request ''
-[16:50:22] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
-[16:50:22] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
-[16:50:22] [Server thread/DEBUG] [FML/]: Found translations in forge.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
-[16:50:22] [Server thread/DEBUG] [FML/]: Found translations in forge.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
-[16:50:22] [Server thread/DEBUG] [terrafirmacraft/]: Enabling mod terrafirmacraft
-[16:50:22] [Server thread/DEBUG] [FML/]: Found translations in 1.7.10-TerraFirmaCraft-0.79.30.925.jar [es_UY, en_US, nl_NL, ro_RO, es_VE, fr_CA, da_DK, tr_TR, pt_PT, ja_JP, zh_CN, it_IT, en_CA, zh_TW, ko_KR, zh_HK, en_GB, hu_HU, es_AR, ru_RU, pt_BR, es_MX, fi_FI, fr_FR, de_DE, es_ES]
-[16:50:22] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
-[16:50:22] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
-[16:50:22] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
-[16:50:22] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
-[16:50:22] [Server thread/DEBUG] [FML/]: Mod sorting data
-[16:50:22] [Server thread/DEBUG] [FML/]: 	terrafirmacraft(TerraFirmaCraft:0.79.29): 1.7.10-TerraFirmaCraft-0.79.30.925.jar ()
-[16:50:22] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
-[16:50:22] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
-[16:50:22] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
-[16:50:22] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
-[16:50:22] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
-[16:50:22] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
-[16:50:22] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
-[16:50:22] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, tfc_coremod, terrafirmacraft] at CLIENT
-[16:50:22] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, tfc_coremod, terrafirmacraft] at SERVER
-[16:50:23] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
-[16:50:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.203s
-[16:50:23] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
-[16:50:23] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
-[16:50:23] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
-[16:50:23] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
-[16:50:23] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
-[16:50:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.007s
-[16:50:23] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLConstructionEvent to mod tfc_coremod
-[16:50:23] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLConstructionEvent to mod tfc_coremod
-[16:50:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - TFC[coremod] took 0.001s
-[16:50:23] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLConstructionEvent to mod terrafirmacraft
-[16:50:23] [Server thread/TRACE] [FML/terrafirmacraft]: Mod terrafirmacraft is using network checker : Accepting version 0.79.29
-[16:50:23] [Server thread/TRACE] [FML/terrafirmacraft]: Testing mod terrafirmacraft to verify it accepts its own version in a remote connection
-[16:50:23] [Server thread/TRACE] [FML/terrafirmacraft]: The mod terrafirmacraft accepts its own version (0.79.29)
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Attempting to inject @SidedProxy classes into terrafirmacraft
-[16:50:23] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLConstructionEvent to mod terrafirmacraft
-[16:50:23] [Server thread/DEBUG] [FML/]: Bar Step: Construction - TerraFirmaCraft took 0.045s
-[16:50:23] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.257s
-[16:50:23] [Server thread/DEBUG] [FML/]: Mod signature data
-[16:50:23] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
-[16:50:23] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge.jar
-[16:50:23] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge.jar
-[16:50:23] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
-[16:50:23] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
-[16:50:23] [Server thread/DEBUG] [FML/]: 		tfc_coremod	(TFC[coremod]	0.79.29)	minecraft.jar
-[16:50:23] [Server thread/DEBUG] [FML/]: 		terrafirmacraft	(TerraFirmaCraft	0.79.29)	1.7.10-TerraFirmaCraft-0.79.30.925.jar
-[16:50:23] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
-[16:50:23] [Server thread/INFO] [FML/]: Found 338 ObjectHolder annotations
-[16:50:23] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
-[16:50:23] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[16:50:23] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
-[16:50:23] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
-[16:50:23] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
-[16:50:23] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
-[16:50:23] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
-[16:50:23] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
-[16:50:23] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
-[16:50:23] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
-[16:50:23] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
-[16:50:23] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.033s
-[16:50:23] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLPreInitializationEvent to mod tfc_coremod
-[16:50:23] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLPreInitializationEvent to mod tfc_coremod
-[16:50:23] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - TFC[coremod] took 0.000s
-[16:50:23] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLPreInitializationEvent to mod terrafirmacraft
-[16:50:23] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading TFCConfig
-[16:50:23] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading Blocks
-[16:50:23] [Server thread/TRACE] [FML/terrafirmacraft]: Automatically registered mod terrafirmacraft entity javelin as terrafirmacraft.javelin
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySquidTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityCowTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityWolfTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityBear
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityChickenTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityPigTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityDeer
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityCustomMinecart
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySkeletonTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityZombieTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySpiderTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySlimeTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySilverfishTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityGhastTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityCaveSpiderTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityBlazeTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityEndermanTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityPigZombieTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityIronGolemTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityCreeperTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityStand
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityPheasantTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityFishTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityFallingBlockTFC
-[16:50:23] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityBarrel
-[16:50:23] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading Items
-[16:50:23] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Registering Items
-[16:50:23] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Registering Food
-[16:50:23] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Registering Armor
-[16:50:23] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: All Items Registered
-[16:50:23] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Finished Loading Items
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLPreInitializationEvent to mod terrafirmacraft
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - TerraFirmaCraft took 0.852s
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.886s
-[16:50:24] [Server thread/INFO] [FML/]: Applying holder lookups
-[16:50:24] [Server thread/INFO] [FML/]: Holder lookups applied
-[16:50:24] [Server thread/INFO] [FML/]: Injecting itemstacks
-[16:50:24] [Server thread/INFO] [FML/]: Itemstack injection complete
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLInitializationEvent to mod tfc_coremod
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLInitializationEvent to mod tfc_coremod
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - TFC[coremod] took 0.000s
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLInitializationEvent to mod terrafirmacraft
-[16:50:24] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading TFCCrafting
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLInitializationEvent to mod terrafirmacraft
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - TerraFirmaCraft took 0.179s
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.180s
-[16:50:24] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.001s
-[16:50:24] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.001s
-[16:50:24] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
-[16:50:24] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod tfc_coremod
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event IMCEvent to mod tfc_coremod
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event IMCEvent to mod tfc_coremod
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TFC[coremod] took 0.000s
-[16:50:24] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod terrafirmacraft
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event IMCEvent to mod terrafirmacraft
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event IMCEvent to mod terrafirmacraft
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TerraFirmaCraft took 0.000s
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.003s
-[16:50:24] [Server thread/INFO] [FML/]: Injecting itemstacks
-[16:50:24] [Server thread/INFO] [FML/]: Itemstack injection complete
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.008s
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLPostInitializationEvent to mod tfc_coremod
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLPostInitializationEvent to mod tfc_coremod
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - TFC[coremod] took 0.000s
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLPostInitializationEvent to mod terrafirmacraft
-[16:50:24] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading TFCOres
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLPostInitializationEvent to mod terrafirmacraft
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - TerraFirmaCraft took 0.005s
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.014s
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
-[16:50:24] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
-[16:50:24] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
-[16:50:24] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.011s
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLLoadCompleteEvent to mod tfc_coremod
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLLoadCompleteEvent to mod tfc_coremod
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - TFC[coremod] took 0.000s
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLLoadCompleteEvent to mod terrafirmacraft
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLLoadCompleteEvent to mod terrafirmacraft
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - TerraFirmaCraft took 0.000s
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.012s
-[16:50:24] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
-[16:50:24] [Server thread/DEBUG] [FML/]: Registry consistency check successful
-[16:50:24] [Server thread/DEBUG] [FML/]: Registry consistency check successful
-[16:50:24] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
-[16:50:24] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
-[16:50:24] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
-[16:50:24] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerAboutToStartEvent to mod tfc_coremod
-[16:50:24] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerAboutToStartEvent to mod tfc_coremod
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TFC[coremod] took 0.000s
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerAboutToStartEvent to mod terrafirmacraft
-[16:50:24] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerAboutToStartEvent to mod terrafirmacraft
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TerraFirmaCraft took 0.000s
-[16:50:24] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.001s
-[16:50:25] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@317357a)
-[16:50:25] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@317357a)
-[16:50:25] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@317357a)
-[16:50:35] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
-[16:50:35] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
-[16:50:35] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
-[16:50:35] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
-[16:50:35] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
-[16:50:35] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.002s
-[16:50:35] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStartingEvent to mod tfc_coremod
-[16:50:35] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStartingEvent to mod tfc_coremod
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TFC[coremod] took 0.000s
-[16:50:35] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStartingEvent to mod terrafirmacraft
-[16:50:35] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStartingEvent to mod terrafirmacraft
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TerraFirmaCraft took 0.014s
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.017s
-[16:50:35] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
-[16:50:35] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
-[16:50:35] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
-[16:50:35] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
-[16:50:35] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
-[16:50:35] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
-[16:50:35] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStartedEvent to mod tfc_coremod
-[16:50:35] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStartedEvent to mod tfc_coremod
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TFC[coremod] took 0.000s
-[16:50:35] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStartedEvent to mod terrafirmacraft
-[16:50:35] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStartedEvent to mod terrafirmacraft
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TerraFirmaCraft took 0.000s
-[16:50:35] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.001s
-[16:50:42] [Netty IO #20/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
-[16:50:42] [Netty IO #20/INFO] [FML/]: Client protocol version 2
-[16:50:42] [Netty IO #20/TRACE] [FML/]: $ModList:10 mods->FMLHandshakeServerState$2:HELLO
-[16:50:42] [Netty IO #20/INFO] [FML/]: Client attempting to join with 10 mods : CodeChickenCore@1.0.7.47,NotEnoughItems@1.0.5.120,Waila@1.5.10,FML@7.10.99.99,terrafirmacraft@0.79.29,tfc_coremod@0.79.29,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.4p1,TerraFirmaCraftNEIplugin@1.5.3.25
-[16:50:42] [Netty IO #20/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
-[16:50:42] [Netty IO #20/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
-[16:50:42] [Netty IO #20/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
-[16:50:42] [Netty IO #20/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
-[16:50:42] [Netty IO #20/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
-[16:50:42] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
-[16:50:42] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCConfig
-[16:50:42] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCOres
-[16:50:42] [Server thread/INFO] [TerraFirmaCraft/]: Reloading TFCCrafting
-[16:50:47] [Netty IO #21/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
-[16:50:47] [Netty IO #21/INFO] [FML/]: Client protocol version 2
-[16:50:47] [Netty IO #21/TRACE] [FML/]: $ModList:10 mods->FMLHandshakeServerState$2:HELLO
-[16:50:47] [Netty IO #21/INFO] [FML/]: Client attempting to join with 10 mods : CodeChickenCore@1.0.7.47,NotEnoughItems@1.0.5.120,Waila@1.5.10,FML@7.10.99.99,terrafirmacraft@0.79.29,tfc_coremod@0.79.29,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.4p1,TerraFirmaCraftNEIplugin@1.5.3.25
-[16:50:47] [Netty IO #21/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
-[16:50:47] [Netty IO #21/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
-[16:50:47] [Netty IO #21/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
-[16:50:47] [Netty IO #21/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
-[16:50:47] [Netty IO #21/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
-[16:50:47] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
-[16:50:47] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCConfig
-[16:50:47] [Server thread/INFO] [TerraFirmaCraft/]: Loading TFCOres
-[16:50:47] [Server thread/INFO] [TerraFirmaCraft/]: Reloading TFCCrafting
-[16:51:20] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
-[16:51:22] [Server thread/INFO] [FML/]: Unloading dimension 1
-[16:52:05] [Server thread/DEBUG] [FML/]: The world 687bd2ea (world) may have leaked: first encounter (5 occurences).
-
-[16:52:05] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
-[16:52:50] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
-[16:52:55] [Server thread/DEBUG] [FML/]: The world 687bd2ea (world) may have leaked: seen 10 times.
-
-[16:53:35] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
-[16:53:45] [Server thread/DEBUG] [FML/]: The world 687bd2ea (world) may have leaked: seen 15 times.
-
-[16:54:20] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
-[16:54:35] [Server thread/DEBUG] [FML/]: The world 687bd2ea (world) may have leaked: seen 20 times.
-
-[16:55:05] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
-[16:55:25] [Server thread/DEBUG] [FML/]: The world 687bd2ea (world) may have leaked: seen 25 times.
-
-[16:55:31] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
-[16:55:31] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
-[16:55:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
-[16:55:31] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
-[16:55:31] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
-[16:55:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
-[16:55:31] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
-[16:55:31] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
-[16:55:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
-[16:55:31] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStoppingEvent to mod tfc_coremod
-[16:55:31] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStoppingEvent to mod tfc_coremod
-[16:55:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - TFC[coremod] took 0.000s
-[16:55:31] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStoppingEvent to mod terrafirmacraft
-[16:55:31] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStoppingEvent to mod terrafirmacraft
-[16:55:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - TerraFirmaCraft took 0.000s
-[16:55:31] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.001s
-[16:55:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
-[16:55:33] [Server thread/INFO] [FML/]: Unloading dimension 0
-[16:55:33] [Server thread/INFO] [FML/]: Unloading dimension -1
-[16:55:33] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
-[16:55:33] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
-[16:55:33] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
-[16:55:33] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
-[16:55:33] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
-[16:55:33] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
-[16:55:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.002s
-[16:55:33] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLModIdMappingEvent to mod tfc_coremod
-[16:55:33] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLModIdMappingEvent to mod tfc_coremod
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TFC[coremod] took 0.000s
-[16:55:33] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLModIdMappingEvent to mod terrafirmacraft
-[16:55:33] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLModIdMappingEvent to mod terrafirmacraft
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TerraFirmaCraft took 0.000s
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.003s
-[16:55:33] [Server thread/INFO] [FML/]: Applying holder lookups
-[16:55:33] [Server thread/INFO] [FML/]: Holder lookups applied
-[16:55:33] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
-[16:55:33] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
-[16:55:33] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
-[16:55:33] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
-[16:55:33] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
-[16:55:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
-[16:55:33] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStoppedEvent to mod tfc_coremod
-[16:55:33] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStoppedEvent to mod tfc_coremod
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TFC[coremod] took 0.001s
-[16:55:33] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStoppedEvent to mod terrafirmacraft
-[16:55:33] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStoppedEvent to mod terrafirmacraft
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TerraFirmaCraft took 0.000s
-[16:55:33] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.002s
+[16:11:43] [main/DEBUG] [FML/]: Validating minecraft
+[16:11:44] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[16:11:44] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:11:44] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:11:44] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: yz | Found 2 injections
+[16:11:44] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: yz : {e | (FF)V}
+[16:11:44] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: yz Complete
+[16:11:44] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:11:45] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: mw | Found 1 injections
+[16:11:45] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: mw : {i | ()V}
+[16:11:45] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: mw Complete
+[16:11:45] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: su | Found 1 injections
+[16:11:45] [main/INFO] [TerraFirmaCraft ASM/]: Inserted: su : {e | ()Z}
+[16:11:45] [main/INFO] [TerraFirmaCraft ASM/]: Attempting to Transform: su Complete
+[16:11:46] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[16:11:46] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[16:11:46] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[16:11:46] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[16:11:46] [Server thread/DEBUG] [FML/]: File C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\config\injectedDependencies.json not found. No dependencies injected
+[16:11:46] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, com.bioxx.tfc.TerraFirmaCraftCore]
+[16:11:47] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[16:11:47] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\forge.jar, examining for mod candidates
+[16:11:47] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\mods\1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[16:11:47] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[16:11:47] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:11:47] [Server thread/INFO] [FML/]: Searching C:\Users\UZIC\Desktop\모여봐요 우직의 숲\[뉴] 프리퍼마\terrafirma\mods for mods
+[16:11:47] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file 1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[16:11:47] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file journeymap-1.7.10-5.1.4p1-unlimited.jar
+[16:11:47] [Server thread/DEBUG] [FML/]: Examining file forge.jar for potential mods
+[16:11:47] [Server thread/DEBUG] [FML/]: The mod container forge.jar appears to be missing an mcmod.info file
+[16:11:47] [Server thread/DEBUG] [FML/]: Examining file 1.7.10-TerraFirmaCraft-0.79.30.925.jar for potential mods
+[16:11:47] [Server thread/TRACE] [FML/]: Located mcmod.info file in file 1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[16:11:47] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.bioxx.tfc.TerraFirmaCraft) - loading
+[16:11:47] [Server thread/TRACE] [terrafirmacraft/]: Using mcmod dependency info : [] [Forge@[10.13.4.1448,)] []
+[16:11:47] [Server thread/DEBUG] [FML/]: Examining file journeymap-1.7.10-5.1.4p1-unlimited.jar for potential mods
+[16:11:47] [Server thread/TRACE] [FML/]: Located mcmod.info file in file journeymap-1.7.10-5.1.4p1-unlimited.jar
+[16:11:47] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (journeymap.common.Journeymap) - loading
+[16:11:47] [Server thread/TRACE] [journeymap/]: Using mcmod dependency info : [Forge@[10.13.4.1558,)] [Forge@[10.13.4.1558,)] []
+[16:11:47] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 6 mods to load
+[16:11:47] [Server thread/TRACE] [FML/]: Received a system property request ''
+[16:11:47] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[16:11:48] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[16:11:48] [Server thread/DEBUG] [FML/]: Found translations in forge.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[16:11:48] [Server thread/DEBUG] [FML/]: Found translations in forge.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[16:11:48] [Server thread/DEBUG] [terrafirmacraft/]: Enabling mod terrafirmacraft
+[16:11:48] [Server thread/DEBUG] [FML/]: Found translations in 1.7.10-TerraFirmaCraft-0.79.30.925.jar [es_UY, en_US, nl_NL, ro_RO, es_VE, fr_CA, da_DK, tr_TR, pt_PT, ja_JP, zh_CN, it_IT, en_CA, zh_TW, ko_KR, zh_HK, en_GB, hu_HU, es_AR, ru_RU, pt_BR, es_MX, fi_FI, fr_FR, de_DE, es_ES]
+[16:11:48] [Server thread/DEBUG] [journeymap/]: Enabling mod journeymap
+[16:11:48] [Server thread/DEBUG] [FML/]: Found translations in journeymap-1.7.10-5.1.4p1-unlimited.jar [ar_SA, ca_ES, de_DE, en_US, es_ES, fi_FI, fr_CA, fr_FR, hu_HU, ja_JP, ko_KR, nl_NL, no_NO, pt_BR, ru_RU, sv_SE, zh_CN]
+[16:11:48] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[16:11:48] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[16:11:48] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[16:11:48] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[16:11:48] [Server thread/DEBUG] [FML/]: Mod sorting data
+[16:11:48] [Server thread/DEBUG] [FML/]: 	terrafirmacraft(TerraFirmaCraft:0.79.29): 1.7.10-TerraFirmaCraft-0.79.30.925.jar ()
+[16:11:48] [Server thread/DEBUG] [FML/]: 	journeymap(JourneyMap:5.1.4p1): journeymap-1.7.10-5.1.4p1-unlimited.jar ()
+[16:11:48] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[16:11:48] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[16:11:48] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[16:11:48] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[16:11:48] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[16:11:48] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[16:11:48] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, tfc_coremod, terrafirmacraft, journeymap] at CLIENT
+[16:11:48] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, tfc_coremod, terrafirmacraft, journeymap] at SERVER
+[16:11:48] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.316s
+[16:11:48] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[16:11:48] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[16:11:48] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[16:11:48] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[16:11:48] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.008s
+[16:11:48] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLConstructionEvent to mod tfc_coremod
+[16:11:48] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLConstructionEvent to mod tfc_coremod
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: Construction - TFC[coremod] took 0.001s
+[16:11:48] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLConstructionEvent to mod terrafirmacraft
+[16:11:48] [Server thread/TRACE] [FML/terrafirmacraft]: Mod terrafirmacraft is using network checker : Accepting version 0.79.29
+[16:11:48] [Server thread/TRACE] [FML/terrafirmacraft]: Testing mod terrafirmacraft to verify it accepts its own version in a remote connection
+[16:11:48] [Server thread/TRACE] [FML/terrafirmacraft]: The mod terrafirmacraft accepts its own version (0.79.29)
+[16:11:48] [Server thread/DEBUG] [FML/terrafirmacraft]: Attempting to inject @SidedProxy classes into terrafirmacraft
+[16:11:48] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLConstructionEvent to mod terrafirmacraft
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: Construction - TerraFirmaCraft took 0.073s
+[16:11:48] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLConstructionEvent to mod journeymap
+[16:11:48] [Server thread/TRACE] [FML/journeymap]: Mod journeymap is using network checker : Invoking method checkModLists
+[16:11:48] [Server thread/TRACE] [FML/journeymap]: Testing mod journeymap to verify it accepts its own version in a remote connection
+[16:11:48] [Server thread/TRACE] [FML/journeymap]: The mod journeymap accepts its own version (5.1.4p1)
+[16:11:48] [Server thread/DEBUG] [FML/journeymap]: Attempting to inject @SidedProxy classes into journeymap
+[16:11:48] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLConstructionEvent to mod journeymap
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JourneyMap took 0.012s
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.411s
+[16:11:48] [Server thread/DEBUG] [FML/]: Mod signature data
+[16:11:48] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[16:11:48] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge.jar
+[16:11:48] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge.jar
+[16:11:48] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[16:11:48] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[16:11:48] [Server thread/DEBUG] [FML/]: 		tfc_coremod	(TFC[coremod]	0.79.29)	minecraft.jar
+[16:11:48] [Server thread/DEBUG] [FML/]: 		terrafirmacraft	(TerraFirmaCraft	0.79.29)	1.7.10-TerraFirmaCraft-0.79.30.925.jar
+[16:11:48] [Server thread/DEBUG] [FML/]: 		journeymap	(JourneyMap	5.1.4p1)	journeymap-1.7.10-5.1.4p1-unlimited.jar
+[16:11:48] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[16:11:48] [Server thread/INFO] [FML/]: Found 338 ObjectHolder annotations
+[16:11:48] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[16:11:48] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[16:11:48] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[16:11:48] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[16:11:48] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[16:11:48] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[16:11:48] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[16:11:48] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[16:11:48] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.039s
+[16:11:48] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLPreInitializationEvent to mod tfc_coremod
+[16:11:48] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLPreInitializationEvent to mod tfc_coremod
+[16:11:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - TFC[coremod] took 0.000s
+[16:11:48] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLPreInitializationEvent to mod terrafirmacraft
+[16:11:48] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading TFCConfig
+[16:11:48] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading Blocks
+[16:11:49] [Server thread/TRACE] [FML/terrafirmacraft]: Automatically registered mod terrafirmacraft entity javelin as terrafirmacraft.javelin
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySquidTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityCowTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityWolfTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityBear
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityChickenTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityPigTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityDeer
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityCustomMinecart
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySkeletonTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityZombieTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySpiderTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySlimeTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntitySilverfishTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityGhastTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityCaveSpiderTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityBlazeTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityEndermanTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityPigZombieTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityIronGolemTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityCreeperTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityStand
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityPheasantTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.Mobs.EntityFishTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityFallingBlockTFC
+[16:11:49] [Server thread/DEBUG] [FML/terrafirmacraft]: Skipping automatic mod terrafirmacraft entity registration for already registered class com.bioxx.tfc.Entities.EntityBarrel
+[16:11:49] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading Items
+[16:11:49] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Registering Items
+[16:11:49] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Registering Food
+[16:11:49] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Registering Armor
+[16:11:49] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: All Items Registered
+[16:11:49] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Finished Loading Items
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLPreInitializationEvent to mod terrafirmacraft
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - TerraFirmaCraft took 1.272s
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLPreInitializationEvent to mod journeymap
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLPreInitializationEvent to mod journeymap
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - JourneyMap took 0.003s
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 1.315s
+[16:11:50] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:11:50] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:11:50] [Server thread/INFO] [FML/]: Injecting itemstacks
+[16:11:50] [Server thread/INFO] [FML/]: Itemstack injection complete
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLInitializationEvent to mod tfc_coremod
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLInitializationEvent to mod tfc_coremod
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - TFC[coremod] took 0.000s
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLInitializationEvent to mod terrafirmacraft
+[16:11:50] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading TFCCrafting
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLInitializationEvent to mod terrafirmacraft
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - TerraFirmaCraft took 0.255s
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLInitializationEvent to mod journeymap
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLInitializationEvent to mod journeymap
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - JourneyMap took 0.015s
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.272s
+[16:11:50] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.002s
+[16:11:50] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[16:11:50] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[16:11:50] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod tfc_coremod
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event IMCEvent to mod tfc_coremod
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event IMCEvent to mod tfc_coremod
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TFC[coremod] took 0.000s
+[16:11:50] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod terrafirmacraft
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event IMCEvent to mod terrafirmacraft
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event IMCEvent to mod terrafirmacraft
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TerraFirmaCraft took 0.000s
+[16:11:50] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod journeymap
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sending event IMCEvent to mod journeymap
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sent event IMCEvent to mod journeymap
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - JourneyMap took 0.000s
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.004s
+[16:11:50] [Server thread/INFO] [FML/]: Injecting itemstacks
+[16:11:50] [Server thread/INFO] [FML/]: Itemstack injection complete
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.010s
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLPostInitializationEvent to mod tfc_coremod
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLPostInitializationEvent to mod tfc_coremod
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - TFC[coremod] took 0.000s
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLPostInitializationEvent to mod terrafirmacraft
+[16:11:50] [Server thread/INFO] [TerraFirmaCraft/terrafirmacraft]: Loading TFCOres
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLPostInitializationEvent to mod terrafirmacraft
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - TerraFirmaCraft took 0.005s
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLPostInitializationEvent to mod journeymap
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLPostInitializationEvent to mod journeymap
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - JourneyMap took 0.000s
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.016s
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[16:11:50] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[16:11:50] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[16:11:50] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.013s
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLLoadCompleteEvent to mod tfc_coremod
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLLoadCompleteEvent to mod tfc_coremod
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - TFC[coremod] took 0.001s
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLLoadCompleteEvent to mod terrafirmacraft
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLLoadCompleteEvent to mod terrafirmacraft
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - TerraFirmaCraft took 0.000s
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLLoadCompleteEvent to mod journeymap
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLLoadCompleteEvent to mod journeymap
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - JourneyMap took 0.000s
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.015s
+[16:11:50] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[16:11:50] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[16:11:50] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[16:11:50] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 6 mods
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerAboutToStartEvent to mod tfc_coremod
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerAboutToStartEvent to mod tfc_coremod
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TFC[coremod] took 0.000s
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerAboutToStartEvent to mod terrafirmacraft
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerAboutToStartEvent to mod terrafirmacraft
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TerraFirmaCraft took 0.000s
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerAboutToStartEvent to mod journeymap
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerAboutToStartEvent to mod journeymap
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - JourneyMap took 0.001s
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.002s
+[16:11:50] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[16:11:50] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[16:11:50] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[16:11:50] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[16:11:50] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[16:11:50] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.021s
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLModIdMappingEvent to mod tfc_coremod
+[16:11:50] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLModIdMappingEvent to mod tfc_coremod
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TFC[coremod] took 0.000s
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLModIdMappingEvent to mod terrafirmacraft
+[16:11:50] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLModIdMappingEvent to mod terrafirmacraft
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TerraFirmaCraft took 0.000s
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLModIdMappingEvent to mod journeymap
+[16:11:50] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLModIdMappingEvent to mod journeymap
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JourneyMap took 0.000s
+[16:11:50] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.023s
+[16:11:50] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:11:50] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:11:50] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:ryewhiskey has been selected as the default fluid for ryewhiskey
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:saltwater has been selected as the default fluid for saltwater
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:beer has been selected as the default fluid for beer
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:sake has been selected as the default fluid for sake
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:milkvinegar has been selected as the default fluid for milkvinegar
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:cornwhiskey has been selected as the default fluid for cornwhiskey
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:brine has been selected as the default fluid for brine
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:cider has been selected as the default fluid for cider
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:rum has been selected as the default fluid for rum
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:freshwater has been selected as the default fluid for freshwater
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:milk has been selected as the default fluid for milk
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:vinegar has been selected as the default fluid for vinegar
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:vodka has been selected as the default fluid for vodka
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:whiskey has been selected as the default fluid for whiskey
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:milkcurdled has been selected as the default fluid for milkcurdled
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:oliveoil has been selected as the default fluid for oliveoil
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:hotwater has been selected as the default fluid for hotwater
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:lavatfc has been selected as the default fluid for lavatfc
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:tannin has been selected as the default fluid for tannin
+[16:11:50] [Server thread/DEBUG] [FML/]: The fluid terrafirmacraft:limewater has been selected as the default fluid for limewater
+[16:11:51] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@14538d47)
+[16:11:51] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@14538d47)
+[16:11:51] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@14538d47)
+[16:11:52] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[16:11:52] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[16:11:52] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[16:11:52] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[16:11:52] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[16:11:52] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.002s
+[16:11:52] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStartingEvent to mod tfc_coremod
+[16:11:52] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStartingEvent to mod tfc_coremod
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TFC[coremod] took 0.000s
+[16:11:52] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStartingEvent to mod terrafirmacraft
+[16:11:52] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStartingEvent to mod terrafirmacraft
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TerraFirmaCraft took 0.014s
+[16:11:52] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStartingEvent to mod journeymap
+[16:11:52] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStartingEvent to mod journeymap
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - JourneyMap took 0.002s
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.019s
+[16:11:52] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[16:11:52] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[16:11:52] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[16:11:52] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[16:11:52] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[16:11:52] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[16:11:52] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStartedEvent to mod tfc_coremod
+[16:11:52] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStartedEvent to mod tfc_coremod
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TFC[coremod] took 0.000s
+[16:11:52] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStartedEvent to mod terrafirmacraft
+[16:11:52] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStartedEvent to mod terrafirmacraft
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TerraFirmaCraft took 0.000s
+[16:11:52] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStartedEvent to mod journeymap
+[16:11:52] [Server thread/INFO] [journeymap/journeymap]: World ID: c6f03cf3-7b2a-482b-b9be-238da291f302
+[16:11:52] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStartedEvent to mod journeymap
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - JourneyMap took 0.024s
+[16:11:52] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.025s
+[16:12:37] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:13:22] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:14:07] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:14:20] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[16:14:20] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[16:14:20] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[16:14:20] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[16:14:20] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[16:14:20] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[16:14:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStoppingEvent to mod tfc_coremod
+[16:14:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStoppingEvent to mod tfc_coremod
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - TFC[coremod] took 0.000s
+[16:14:20] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStoppingEvent to mod terrafirmacraft
+[16:14:20] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStoppingEvent to mod terrafirmacraft
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - TerraFirmaCraft took 0.000s
+[16:14:20] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStoppingEvent to mod journeymap
+[16:14:20] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStoppingEvent to mod journeymap
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - JourneyMap took 0.000s
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.001s
+[16:14:20] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:14:20] [Server thread/INFO] [FML/]: Unloading dimension 0
+[16:14:20] [Server thread/INFO] [FML/]: Unloading dimension -1
+[16:14:20] [Server thread/INFO] [FML/]: Unloading dimension 1
+[16:14:20] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[16:14:20] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[16:14:20] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[16:14:20] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[16:14:20] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[16:14:20] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[16:14:20] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s
+[16:14:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLModIdMappingEvent to mod tfc_coremod
+[16:14:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLModIdMappingEvent to mod tfc_coremod
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TFC[coremod] took 0.000s
+[16:14:20] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLModIdMappingEvent to mod terrafirmacraft
+[16:14:20] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLModIdMappingEvent to mod terrafirmacraft
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TerraFirmaCraft took 0.000s
+[16:14:20] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLModIdMappingEvent to mod journeymap
+[16:14:20] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLModIdMappingEvent to mod journeymap
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JourneyMap took 0.000s
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.002s
+[16:14:20] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:14:20] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:14:20] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[16:14:20] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[16:14:20] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[16:14:20] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[16:14:20] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[16:14:20] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[16:14:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sending event FMLServerStoppedEvent to mod tfc_coremod
+[16:14:20] [Server thread/TRACE] [tfc_coremod/tfc_coremod]: Sent event FMLServerStoppedEvent to mod tfc_coremod
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TFC[coremod] took 0.000s
+[16:14:20] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sending event FMLServerStoppedEvent to mod terrafirmacraft
+[16:14:20] [Server thread/TRACE] [terrafirmacraft/terrafirmacraft]: Sent event FMLServerStoppedEvent to mod terrafirmacraft
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TerraFirmaCraft took 0.000s
+[16:14:20] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStoppedEvent to mod journeymap
+[16:14:20] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStoppedEvent to mod journeymap
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JourneyMap took 0.000s
+[16:14:20] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.001s
